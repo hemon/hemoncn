@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name="keywords" content="������,������ͨ��ѧ,У��,����,ͬѧ,У԰,����">
-<meta name="description" content="������,У԰����,�ṩУ�Ѳ�ѯ,�ɼ���ѯ,ͼ��ݽ��Ĳ�ѯ,�ʼ�������ѯ">
-<title><?=($_REQUEST['course'] ? $_REQUEST['course'] : $classmates[$_REQUEST['sid']])?> - �ɼ���ѯ - ������</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="好梦网,华东交通大学,校友,老乡,同学,校园,搜索">
+<meta name="description" content="好梦网,校园搜索,提供校友查询,成绩查询,图书馆借阅查询,邮件包裹查询">
+<title><?=($_REQUEST['course'] ? $_REQUEST['course'] : $classmates[$_REQUEST['sid']])?> - 成绩查询 - 好梦网</title>
 
 <link rel="SHORTCUT ICON" href="images/favicon.ico">
 <link rel="stylesheet" href="images/ph.css" type="text/css" media="screen">
@@ -16,24 +16,24 @@
  <?php //include("thickbox.html") ?>
  <!--end topMenu -->
 <div id="hd">
-	<div class="logo"><a href="http://score.hemon.cn/"><img src="images/logo.png" alt="У԰����" width="267" height="82" border="0"></a></div>
-	<div class="sebar"><form method="get"><input class="input" name="sid" id="s" value="<?php echo $sid;?>" type="text"><input value=" ���� " class="button" type="submit"></form>
+	<div class="logo"><a href="http://score.hemon.cn/"><img src="images/logo.png" alt="校园搜索" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="sid" id="s" value="<?php echo $sid;?>" type="text"><input value=" 搜索 " class="button" type="submit"></form>
 			 <fieldset id="subscibe" style="width:380px">
-						<legend><span class="red">����Ѷ��Ŷ��ġ�</span>�ύѧ�ź��ֻ����룬���³ɼ��������ʹ</legend>
+						<legend><span class="red">【免费短信订阅】</span>提交学号和手机号码，最新成绩，短信送达！</legend>
 			  <form id="form1" name="form1" method="post" action="http://my.hemon.cn/?tab=mobile" target="post">
-				  &nbsp;&nbsp;ѧ�ţ�
+				  &nbsp;&nbsp;学号：
 				  <input name="sid" type="text" id="sid" value="<?=$_REQUEST['sid']?>" size="16" maxlength="14">
-				  &nbsp;�ֻ�/С��ͨ��
+				  &nbsp;手机/小灵通：
 				  <input name="mobile" type="text" id="mobile" size="11" maxlength="11"/>
 				  &nbsp;
-				  <input type="submit" name="Submit" value="����" />
+				  <input type="submit" name="Submit" value="订阅" />
 			  </form>
 	   </fieldset>
 	</div>
 </div>
 <div id="wp">
   <div class="mainl">
-		<h1>�ҵ�ͬѧ</h1>
+		<h1>我的同学</h1>
 		 <div class="rm">
 		 	<ul>
 				<?php foreach($classmates as $sid => $name){ ?>
@@ -49,7 +49,7 @@
             <?php foreach($terms as $term){ ?>
             <li<?php if($term == $thisTerm) echo ' class="up"'; ?>><a href="?sid=<?php echo $_REQUEST['sid']?>&term=<?php echo $term?>&td=<?=$_REQUEST['td']?>"><?php echo $term?></a></li>
             <?php } ?>
-            <li style="float:right">��ʱ <?php echo $processed?> �� </li>
+            <li style="float:right">用时 <?php echo $processed?> 秒 </li>
           </ul>
         </div>
 <?php
@@ -60,13 +60,13 @@
 <thead>
 <tr>
 <th class="p1">#</th>
-<th>����</th>
-<th>�γ�</th> 
-<th>Ҫ��</th> 
-<th>ѧ��</th>
-<th>�ɼ�</th> 
-<th>�ؿ���</th>
-<th>��</th>
+<th>姓名</th>
+<th>课程</th> 
+<th>要求</th> 
+<th>学分</th>
+<th>成绩</th> 
+<th>重考①</th>
+<th>②</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +91,7 @@
 </div>
         <div style="float:right;position:relative;top:8px; width:205px">
           <fieldset>
-          <legend><?php echo $student['class']?> ��</legend>
+          <legend><?php echo $student['class']?> 吧</legend>
             <iframe src="dopost.php?key=<?php echo $student['Class']?>&amp;hideClass=1" width="100%" frameborder="0" scrolling="No" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight"></iframe>
           </fieldset>
     </div>

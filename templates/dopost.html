@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title><?php echo $keyword ?>�� - ������</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?php echo $keyword ?>吧 - 好梦网</title>
 <link rel="stylesheet" href="images/post.css" type="text/css">
 <link rel="stylesheet" href="images/flickr.css" type="text/css">
 <script src="js/function.js" type="text/javascript"></script>
@@ -14,7 +14,7 @@
 			  <form action="/dopost.php?action=add" method="post" name="post" id="post" onsubmit="if(this.content.value == '') return false;this.submit.disabled = true;">
 				  <div style="display: block; margin-bottom:5px" id="write_wall">
 						  <textarea name="content" id="content"></textarea>				  
-						  <input type="submit" name="submit" id="submit" value=" ��Ҫ���� "/>
+						  <input type="submit" name="submit" id="submit" value=" 我要留言 "/>
 				          <input name="pid" type="hidden" id="rid" value="<?php echo $pid ?>"/>
 				          <input name="key" type="hidden" id="key" value="<?php echo $keyword ?>"/>
 						  <input name="hideClass" type="hidden" id="hideClass" value="<?php echo $_REQUEST['hideClass']?>"/>
@@ -25,18 +25,18 @@
 					<ul>
 							<li id="wdt_1">
 								<p class="title">
-									<a class="boy" href="student.php?key=20020410070133" target="_top">��ΰ</a>
+									<a class="boy" href="student.php?key=20020410070133" target="_top">张伟</a>
                                     <?php if( $_REQUEST['hideClass'] != 1 ) :?>									
-									<b class="school"><a href="student.php?key=��Ϣ����2002-1" target="_top">��Ϣ����2002-1</a></b>
+									<b class="school"><a href="student.php?key=信息管理2002-1" target="_top">信息管理2002-1</a></b>
                                     <?php endif; ?>	
 									<b class="datetime">2008-04-27 21:00:00</b>
 								</p>
-								<p class="content" id="wdd_1">ͼ��ݽ��Ĳ�ѯ��<a href="http://lib.hemon.cn/" target="_blank" style="background-color:#CC0000;color:#FFFFFF;">lib.hemon.cn</a><br />ʹ��������ǸĽ����飬����ϵ��<br /><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=24303484&amp;Site=hemon.cn&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:24303484:4"  border="0" alt="QQ" />24303484</a> QQȺ��52018863<br />QQ�����ˣ�<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=542316495&amp;Site=hemon.cn&amp;Menu=yes" target="_blank" title="�ٳɼ���ѯ �ڶ��ĳɼ����� ����������ѯ"><img src="http://wpa.qq.com/pa?p=1:542316495:4"  border="0" alt="QQ" />542316495</a><br /></p> 
+								<p class="content" id="wdd_1">图书馆借阅查询：<a href="http://lib.hemon.cn/" target="_blank" style="background-color:#CC0000;color:#FFFFFF;">lib.hemon.cn</a><br />使用问题或是改进建议，请联系：<br /><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=24303484&amp;Site=hemon.cn&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:24303484:4"  border="0" alt="QQ" />24303484</a> QQ群：52018863<br />QQ机器人：<a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=542316495&amp;Site=hemon.cn&amp;Menu=yes" target="_blank" title="①成绩查询 ②订阅成绩短信 ③四六级查询"><img src="http://wpa.qq.com/pa?p=1:542316495:4"  border="0" alt="QQ" />542316495</a><br /></p> 
 							</li>
                             <?php
                                 $i = 0;
-                        		$sex['Ů'] = 'girl';
-                        		$sex['��'] = 'boy';
+                        		$sex['女'] = 'girl';
+                        		$sex['男'] = 'boy';
                         		if( !empty($post) ) foreach($post as $p):
                             	   ++$i;	 
                             ?>

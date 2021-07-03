@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-	<meta name="keywords" content="ºÃÃÎÍø,»ª¶«½»Í¨´óÑ§,Ð£ÓÑ,ÀÏÏç,Í¬Ñ§,Ð£Ô°,ËÑË÷">
-	<meta name="description" content="ºÃÃÎÍø,Ð£Ô°ËÑË÷,Ìá¹©Ð£ÓÑ²éÑ¯,³É¼¨²éÑ¯,Í¼Êé¹Ý½èÔÄ²éÑ¯,ÓÊ¼þ°ü¹ü²éÑ¯">
-	<title>ºÃÃÎÍø - Ð£Ô°ËÑË÷</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="å¥½æ¢¦ç½‘,åŽä¸œäº¤é€šå¤§å­¦,æ ¡å‹,è€ä¹¡,åŒå­¦,æ ¡å›­,æœç´¢">
+	<meta name="description" content="å¥½æ¢¦ç½‘,æ ¡å›­æœç´¢,æä¾›æ ¡å‹æŸ¥è¯¢,æˆç»©æŸ¥è¯¢,å›¾ä¹¦é¦†å€Ÿé˜…æŸ¥è¯¢,é‚®ä»¶åŒ…è£¹æŸ¥è¯¢">
+	<title>å¥½æ¢¦ç½‘ - æ ¡å›­æœç´¢</title>
 	<link href="images/index.css" rel="stylesheet" type="text/css" />
 	<link href="images/topmenu.css" rel="stylesheet" type="text/css" />
 </head>
@@ -14,15 +14,15 @@
  <!--end topMenu -->
 <div id="wapper">
 
-   <div id="logo" class="tCenter" style=""><img src="images/logo.png" alt="ºÃÃÎÍø - Ìá¹©Ð£ÓÑ²éÑ¯¡¢³É¼¨²éÑ¯¡¢Í¼Êé¹Ý½èÔÄ²éÑ¯¡¢ÓÊ¼þ°ü¹ü²éÑ¯" width="267" height="82"></div>
+   <div id="logo" class="tCenter" style=""><img src="images/logo.png" alt="å¥½æ¢¦ç½‘ - æä¾›æ ¡å‹æŸ¥è¯¢ã€æˆç»©æŸ¥è¯¢ã€å›¾ä¹¦é¦†å€Ÿé˜…æŸ¥è¯¢ã€é‚®ä»¶åŒ…è£¹æŸ¥è¯¢" width="267" height="82"></div>
      <!--searchTab -->
 	<div id="searchTab">
 	  <ul>
-		<li><a href="http://www.hemon.cn/home" id="home"><span>Ð£ÓÑÂ¼</span></a></li>
-		<li><a href="http://student.hemon.cn" id="student" <?=$actives['student']?>><span>Í¬Ñ§</span></a></li>
-		<li><a href="http://score.hemon.cn" id="score" <?=$actives['score']?>><span>³É¼¨</span></a></li>
-		<li><a href="http://cnki.hemon.cn" id="cnki" <?=$actives['cnki']?>><span>ÂÛÎÄ</span></a></li>
-		<li><a href="http://post.hemon.cn" id="mail" <?=$actives['post']?>><span>ÓÊ°ü</span></a></li>
+		<li><a href="http://www.hemon.cn/home" id="home"><span>æ ¡å‹å½•</span></a></li>
+		<li><a href="http://student.hemon.cn" id="student" <?=$actives['student']?>><span>åŒå­¦</span></a></li>
+		<li><a href="http://score.hemon.cn" id="score" <?=$actives['score']?>><span>æˆç»©</span></a></li>
+		<li><a href="http://cnki.hemon.cn" id="cnki" <?=$actives['cnki']?>><span>è®ºæ–‡</span></a></li>
+		<li><a href="http://post.hemon.cn" id="mail" <?=$actives['post']?>><span>é‚®åŒ…</span></a></li>
 		<li><a href="http://cet.hemon.cn" id="cet" <?=$actives['cet']?>><span>CET</span></a></li>
 		<div class="new"><img src="images/new.gif" /></div>
 	  </ul>
@@ -36,25 +36,25 @@
      <div>
 		 <input name="sid" type="text" class="kw" id="key" value="200" size="36" maxlength="100">
 		  &nbsp;
-		  <input value=" ËÑË÷ " id="submit" class="sb" type="submit">
+		  <input value=" æœç´¢ " id="submit" class="sb" type="submit">
      </div>
      <div class="searchTip remark" id="student" style="margin-top: 5px;">
        <input type="radio" name="td" id="td_0" value="0" checked="checked" />
-	   <label for="td_0">ÆÕÍ¨</label>
+	   <label for="td_0">æ™®é€š</label>
 	   <input type="radio" name="td" id="td_1" value="1" />
-	   <label for="td_1">Ë«Ñ§Î»</label>
+	   <label for="td_1">åŒå­¦ä½</label>
 	 </div>
 	</form>
   </div>
   <?php elseif($thisTab == 'student'): ?>
   <div id="div_student" class="clearfix searchTxt">
   <form method="get" action="http://student.hemon.cn">
-    <input name="key" type="text" class="kw" id="kw" size="36" maxlength="100" value="ÖÐÌú¶þ¾Ö"/>
+    <input name="key" type="text" class="kw" id="kw" size="36" maxlength="100" value="ä¸­é“äºŒå±€"/>
   &nbsp;
-  <input type="submit" class="sb" id="submit" value=" ËÑË÷ " />
+  <input type="submit" class="sb" id="submit" value=" æœç´¢ " />
   </form>
     <div class="searchTip remark" id="student" style="margin-top: 5px;">
-	 ÇëÊäÈë£ºÑ§ºÅ¡¢ÐÕÃû¡¢°à¼¶¡¢¼ÒÏç¡¢Ãñ×å¡¢ÉúÈÕ¡¢<span style="color:red">¹¤×÷µ¥Î»</span>.<br />
+	 è¯·è¾“å…¥ï¼šå­¦å·ã€å§“åã€ç­çº§ã€å®¶ä¹¡ã€æ°‘æ—ã€ç”Ÿæ—¥ã€<span style="color:red">å·¥ä½œå•ä½</span>.<br />
 	 <br />
   </div>
      <a href="q/hemon.exe"></a></div>
@@ -65,10 +65,10 @@
   <form method="get" action="http://cet.hemon.cn">
     <input name="examid" type="text" class="kw" id="examid" size="36" maxlength="100" value="3600400711" />
   &nbsp;
-  <input type="submit" class="sb" id="submit" value=" ËÑË÷ " />
+  <input type="submit" class="sb" id="submit" value=" æœç´¢ " />
   </form>
     <div class="searchTip remark" id="student" style="margin-top: 5px;">
-	 <font color="red">£¨07-12£©ËÄÁù¼¶³É¼¨ </font>ÇëÊäÈë£º×¼¿¼Ö¤ºÅ(15Î»)£¬Àý£º360040072213624.<br />
+	 <font color="red">ï¼ˆ07-12ï¼‰å››å…­çº§æˆç»© </font>è¯·è¾“å…¥ï¼šå‡†è€ƒè¯å·(15ä½)ï¼Œä¾‹ï¼š360040072213624.<br />
 	 <br />
   </div>
   </div>
@@ -79,36 +79,36 @@
 	 <form method="get" action="http://cnki.hemon.cn">
 		 <input name="key" type="text" class="kw" id="key" value="php" size="36" maxlength="100">
 		  &nbsp;
-		  <input value=" ËÑË÷ " id="submit" class="sb" type="submit">
+		  <input value=" æœç´¢ " id="submit" class="sb" type="submit">
 	  </form>
      </div>
      <div class="searchTip remark" id="student" style="margin-top: 5px;">
-	   Ä¬ÈÏ°´ÆªÃûËÑË÷£¬Ö§³Ö£ºÆªÃû¡¢Ö÷Ìâ¡¢¹Ø¼ü´Ê¡¢ÕªÒª¡¢×÷Õß¡¢µ¥Î»¡¢¿¯Ãû¡¢Äê£¬Àý£º<br /><br />
+	   é»˜è®¤æŒ‰ç¯‡åæœç´¢ï¼Œæ”¯æŒï¼šç¯‡åã€ä¸»é¢˜ã€å…³é”®è¯ã€æ‘˜è¦ã€ä½œè€…ã€å•ä½ã€åˆŠåã€å¹´ï¼Œä¾‹ï¼š<br /><br />
 	   <fieldset style="width:310px">
        <table cellpadding="0" cellspacing="3">
          <tr>
-           <td>&nbsp;Ö÷Ìâ</td>
-           <td><a href="http://cnki.hemon.cn/?key=zz:ÕÅÎ°" target="_blank">zt:´óÑ§Éú</a></td>
+           <td>&nbsp;ä¸»é¢˜</td>
+           <td><a href="http://cnki.hemon.cn/?key=zz:å¼ ä¼Ÿ" target="_blank">zt:å¤§å­¦ç”Ÿ</a></td>
          </tr>
          <tr>
-           <td>&nbsp;×÷Õß</td>
-           <td><a href="http://cnki.hemon.cn/?key=zz:ÕÅÎ°" target="_blank">zz:ÕÅÎ°</a></td>
+           <td>&nbsp;ä½œè€…</td>
+           <td><a href="http://cnki.hemon.cn/?key=zz:å¼ ä¼Ÿ" target="_blank">zz:å¼ ä¼Ÿ</a></td>
          </tr>
          <tr>
-           <td>&nbsp;¹Ø¼ü×Ö</td>
-           <td><a href="http://cnki.hemon.cn/?key=gjz:ÕÅÎ°" target="_blank">gjz:DNA</a></td>
+           <td>&nbsp;å…³é”®å­—</td>
+           <td><a href="http://cnki.hemon.cn/?key=gjz:å¼ ä¼Ÿ" target="_blank">gjz:DNA</a></td>
          </tr>
          <tr>
-           <td>&nbsp;ÕªÒª</td>
-           <td><a href="http://cnki.hemon.cn/?key=zy:php" target="_blank">zy:ÉúÎï¿Æ¼¼</a></td>
+           <td>&nbsp;æ‘˜è¦</td>
+           <td><a href="http://cnki.hemon.cn/?key=zy:php" target="_blank">zy:ç”Ÿç‰©ç§‘æŠ€</a></td>
          </tr>
          <tr>
-           <td>&nbsp;µ¥Î»</td>
-           <td><a href="http://cnki.hemon.cn/?key=dw:»ª¶«½»Í¨´óÑ§" target="_blank">dw:»ª¶«½»Í¨´óÑ§</a></td>
+           <td>&nbsp;å•ä½</td>
+           <td><a href="http://cnki.hemon.cn/?key=dw:åŽä¸œäº¤é€šå¤§å­¦" target="_blank">dw:åŽä¸œäº¤é€šå¤§å­¦</a></td>
          </tr>
          <tr>
-           <td>&nbsp;¿¯Ãû</td>
-           <td><a href="http://cnki.hemon.cn/?key=km:µçÄÔ°®ºÃÕß" target="_blank">km:µçÄÔ°®ºÃÕß</a></td>
+           <td>&nbsp;åˆŠå</td>
+           <td><a href="http://cnki.hemon.cn/?key=km:ç”µè„‘çˆ±å¥½è€…" target="_blank">km:ç”µè„‘çˆ±å¥½è€…</a></td>
          </tr>
        </table>
        </fieldset>
@@ -121,54 +121,54 @@
 	 <form method="get" action="http://lib.hemon.cn">
 		 <input name="key" type="text" class="kw" id="key" value="php" size="36" maxlength="100">
 		  &nbsp;
-		  <input value=" ËÑË÷ " id="submit" class="sb" type="submit">
+		  <input value=" æœç´¢ " id="submit" class="sb" type="submit">
 		  <!--
 		  <br />
-          <input type="radio" name="se" value="%ËùÓÐ¿â%" id="all" checked />
-          <label for="all">È«²¿</label>
-          <input type="radio" name="se" value="/Í¼Êé×Ü¿â/ÊéÃû" id="title" />
-          <label for="title">ÊéÃû</label>
-          <input type="radio" name="se" value="/Í¼Êé×Ü¿â/×÷Õß" id="author" />
-          <label for="author">×÷Õß</label>
-          <input type="radio" name="se" value="/Í¼Êé×Ü¿â/Ö÷Ìâ" id="subject" />
-          <label for="subject">Ö÷Ìâ</label>
-          <input type="radio" name="se" value="/ÐÂ¶ÁÕß¿â/ÐÕÃû" id="reader" />
-          <label for="reader">¶ÁÕßÐÕÃû</label>
-          <input type="radio" name="se" value="/ÐÂ¶ÁÕß¿â/Ö¤ÌõÂëºÅ" id="readerid" />
-          <label for="readerid">½èÊéÖ¤ºÅ</label>
+          <input type="radio" name="se" value="%æ‰€æœ‰åº“%" id="all" checked />
+          <label for="all">å…¨éƒ¨</label>
+          <input type="radio" name="se" value="/å›¾ä¹¦æ€»åº“/ä¹¦å" id="title" />
+          <label for="title">ä¹¦å</label>
+          <input type="radio" name="se" value="/å›¾ä¹¦æ€»åº“/ä½œè€…" id="author" />
+          <label for="author">ä½œè€…</label>
+          <input type="radio" name="se" value="/å›¾ä¹¦æ€»åº“/ä¸»é¢˜" id="subject" />
+          <label for="subject">ä¸»é¢˜</label>
+          <input type="radio" name="se" value="/æ–°è¯»è€…åº“/å§“å" id="reader" />
+          <label for="reader">è¯»è€…å§“å</label>
+          <input type="radio" name="se" value="/æ–°è¯»è€…åº“/è¯æ¡ç å·" id="readerid" />
+          <label for="readerid">å€Ÿä¹¦è¯å·</label>
            -->
 	  </form>
      </div>
      <div class="searchTip remark" id="student" style="margin-top: 5px;">
-	   ÇëÊäÈë£º½èÊéÖ¤ºÅ¡¢¶ÁÕßÐÕÃû¡¢ÊéÃû¡¢×÷Õß¡¢ISBN¡¢Ö÷Ìâ´Ê¡¢·ÖÀàºÅ£¬Àý£º<br /><br />
+	   è¯·è¾“å…¥ï¼šå€Ÿä¹¦è¯å·ã€è¯»è€…å§“åã€ä¹¦åã€ä½œè€…ã€ISBNã€ä¸»é¢˜è¯ã€åˆ†ç±»å·ï¼Œä¾‹ï¼š<br /><br />
 	   <fieldset style="width:310px">
        <table cellpadding="0" cellspacing="3">
 	     <tr>
-	       <td width="68">&nbsp;½èÊéÖ¤ºÅ</td>
+	       <td width="68">&nbsp;å€Ÿä¹¦è¯å·</td>
 	       <td width="236"><a href="http://lib.hemon.cn/?key=0422151" target="_blank">0422151</a></td>
          </tr>
 	     <tr>
-	       <td width="68">&nbsp;¶ÁÕßÐÕÃû</td>
-	       <td width="236"><a href="http://lib.hemon.cn/?key=Ô¬ÎÄæÃ" target="_blank">Ô¬ÎÄæÃ</a></td>
+	       <td width="68">&nbsp;è¯»è€…å§“å</td>
+	       <td width="236"><a href="http://lib.hemon.cn/?key=è¢æ–‡å©·" target="_blank">è¢æ–‡å©·</a></td>
          </tr>
 	     <tr>
-           <td>&nbsp;ÊéÃû</td>
-	       <td><a href="http://lib.hemon.cn/?key=¼¤ÇéÈ¼ÉÕµÄËêÔÂ" target="_blank">¼¤ÇéÈ¼ÉÕµÄËêÔÂ</a></td>
+           <td>&nbsp;ä¹¦å</td>
+	       <td><a href="http://lib.hemon.cn/?key=æ¿€æƒ…ç‡ƒçƒ§çš„å²æœˆ" target="_blank">æ¿€æƒ…ç‡ƒçƒ§çš„å²æœˆ</a></td>
          </tr>
          <tr>
-           <td>&nbsp;×÷Õß</td>
-           <td><a href="http://lib.hemon.cn/?key=Â³Ñ¸" target="_blank">Â³Ñ¸</a></td>
+           <td>&nbsp;ä½œè€…</td>
+           <td><a href="http://lib.hemon.cn/?key=é²è¿…" target="_blank">é²è¿…</a></td>
          </tr>
          <tr>
            <td>&nbsp;ISBN</td>
            <td><a href="http://lib.hemon.cn/?key=7-111-08618-X" target="_blank">7-111-08618-X</a></td>
          </tr>
          <tr>
-           <td>&nbsp;Ö÷Ìâ´Ê</td>
-           <td><a href="http://lib.hemon.cn/?key=¼ÆËã»ú" target="_blank">¼ÆËã»ú</a></td>
+           <td>&nbsp;ä¸»é¢˜è¯</td>
+           <td><a href="http://lib.hemon.cn/?key=è®¡ç®—æœº" target="_blank">è®¡ç®—æœº</a></td>
          </tr>
          <tr>
-           <td>&nbsp;·ÖÀàºÅ</td>
+           <td>&nbsp;åˆ†ç±»å·</td>
            <td><a href="http://lib.hemon.cn/?key=I247.5" target="_blank">I247.5</a></td>
          </tr>
        </table>
@@ -180,15 +180,15 @@
    <!--footer -->
    <div id="footer">
       <div id="navFooter">
-	      <a href="http://www.hemon.cn/blog" target="_blank">¹ØÓÚÎÒÃÇ</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">ÓÑÇéÁ´½Ó</a>&nbsp;-&nbsp;
-          <a href="http://www.hemon.cn/blog" target="_blank">Õ¾µãµØÍ¼</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">ÒþË½Õþ²ß</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">ÉÌÎñºÏ×÷</a>
+	      <a href="http://www.hemon.cn/blog" target="_blank">å…³äºŽæˆ‘ä»¬</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">å‹æƒ…é“¾æŽ¥</a>&nbsp;-&nbsp;
+          <a href="http://www.hemon.cn/blog" target="_blank">ç«™ç‚¹åœ°å›¾</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">éšç§æ”¿ç­–</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">å•†åŠ¡åˆä½œ</a>
      </div>
 	  <!--end navFooter -->
 	  <div id="copyright">
-		   <span class="cFont">&#169;2007-<?=date('Y')?></span> hemon.cn, <a target="_blank" href="http://www.miibeian.gov.cn/">¸ÓICP±¸07004153ºÅ</a></div>
+		   <span class="cFont">&#169;2007-<?=date('Y')?></span> hemon.cn, <a target="_blank" href="http://www.miibeian.gov.cn/">èµ£ICPå¤‡07004153å·</a></div>
 	  <!--end copyright -->
    </div>
    <!--end footer -->

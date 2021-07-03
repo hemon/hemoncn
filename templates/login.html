@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-	<meta name="keywords" content="������,������ͨ��ѧ,У��,����,ͬѧ,У԰,����">
-	<meta name="description" content="������,У԰����,�ṩУ�Ѳ�ѯ,�ɼ���ѯ,ͼ��ݽ��Ĳ�ѯ,�ʼ�������ѯ">
-	<title>������ - У԰����</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="好梦网,华东交通大学,校友,老乡,同学,校园,搜索">
+	<meta name="description" content="好梦网,校园搜索,提供校友查询,成绩查询,图书馆借阅查询,邮件包裹查询">
+	<title>好梦网 - 校园搜索</title>
 	<link href="images/index.css" rel="stylesheet" type="text/css" />
 	<link href="images/topmenu.css" rel="stylesheet" type="text/css" />
 	<link href="images/thickbox.css" rel="stylesheet" type="text/css">
@@ -15,15 +15,15 @@
  <!--end topMenu -->
 <div id="wapper">
 
-   <div id="logo" class="tCenter" style=""><img src="images/logo.png" alt="������ - �ṩУ�Ѳ�ѯ���ɼ���ѯ��ͼ��ݽ��Ĳ�ѯ���ʼ�������ѯ" width="267" height="82"></div>
+   <div id="logo" class="tCenter" style=""><img src="images/logo.png" alt="好梦网 - 提供校友查询、成绩查询、图书馆借阅查询、邮件包裹查询" width="267" height="82"></div>
      <!--searchTab -->
 	<div id="searchTab">
 	  <ul>
-		<li><a href="http://www.hemon.cn/home" id="home"><span>У��¼</span></a></li>
-		<li><a href="http://student.hemon.cn" id="student" <?=$actives['student']?>><span>ͬѧ</span></a></li>
-		<li><a href="http://score.hemon.cn" id="score" <?=$actives['score']?>><span>�ɼ�</span></a></li>
-		<li><a href="http://lib.hemon.cn" id="lib" <?=$actives['lib']?>><span>ͼ��</span></a></li>
-		<li><a href="http://post.hemon.cn" id="mail" <?=$actives['post']?>><span>�ʰ�</span></a></li>
+		<li><a href="http://www.hemon.cn/home" id="home"><span>校友录</span></a></li>
+		<li><a href="http://student.hemon.cn" id="student" <?=$actives['student']?>><span>同学</span></a></li>
+		<li><a href="http://score.hemon.cn" id="score" <?=$actives['score']?>><span>成绩</span></a></li>
+		<li><a href="http://lib.hemon.cn" id="lib" <?=$actives['lib']?>><span>图书</span></a></li>
+		<li><a href="http://post.hemon.cn" id="mail" <?=$actives['post']?>><span>邮包</span></a></li>
 		<li><a href="http://cet.hemon.cn" id="cet" <?=$actives['cet']?>><span>CET</span></a></li>
 		<div class="new"><img src="images/new.gif" /></div>
 	  </ul>
@@ -34,7 +34,7 @@
 <div style="height:250px;">
 <div id="DialogMove" class="DialogMove">
 <div id="DialogTitle">
-	<div id="DialogTitleText">��¼</div>
+	<div id="DialogTitleText">登录</div>
 	
 </div>
 <div id="DialogContent">
@@ -42,35 +42,35 @@
 	  <table border="0" cellspacing="5">
 		<tbody>
 		  <tr valign="top">
-			<td><label for="u01">ѧ��</label></td>
-			<td><label for="p01">����</label></td>
+			<td><label for="u01">学号</label></td>
+			<td><label for="p01">密码</label></td>
 			<td></td>
 		  </tr>
 		  <tr>
 			<td><input type="text" maxlength="14" size="15" name="sid" value="<?=$_REQUEST['sid']?>"/></td>
 			<td><input type="password" maxlength="50" size="15" name="password"/></td>
-			<td><input type="submit" value="��¼" class="sb" style="font-size:12px"/></td>
+			<td><input type="submit" value="登录" class="sb" style="font-size:12px"/></td>
 			<input type="hidden" name="refer" value="<?=$_SERVER["HTTP_REFERER"]?>" />
 		  </tr>
 		</tbody>
 	  </table>
 	</form>
-	* ����Ĭ��Ϊ�������롣�����뵽������վ<a href="http://jwc.ecjtu.jx.cn:8080/jwcmis/register.htm" target="_blank" class="button">ע��</a></div>
+	* 密码默认为教务处密码。新生请到教务处网站<a href="http://jwc.ecjtu.jx.cn:8080/jwcmis/register.htm" target="_blank" class="button">注册</a></div>
 </div>
 </div>
 <!--end searchTxt -->
    <!--footer -->
    <div id="footer">
       <div id="navFooter">
-	      <a href="http://www.hemon.cn/blog" target="_blank">��������</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">��������</a>&nbsp;-&nbsp;
-          <a href="http://www.hemon.cn/blog" target="_blank">վ���ͼ</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">��˽����</a>&nbsp;-&nbsp;
-		  <a href="http://www.hemon.cn/blog" target="_blank">�������</a>
+	      <a href="http://www.hemon.cn/blog" target="_blank">关于我们</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">友情链接</a>&nbsp;-&nbsp;
+          <a href="http://www.hemon.cn/blog" target="_blank">站点地图</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">隐私政策</a>&nbsp;-&nbsp;
+		  <a href="http://www.hemon.cn/blog" target="_blank">商务合作</a>
      </div>
 	  <!--end navFooter -->
 	  <div id="copyright">
-		   <span class="cFont">&#169;2007-<?=date('Y')?></span> hemon.cn, <a target="_blank" href="http://www.miibeian.gov.cn/">��ICP��07004153��</a></div>
+		   <span class="cFont">&#169;2007-<?=date('Y')?></span> hemon.cn, <a target="_blank" href="http://www.miibeian.gov.cn/">赣ICP备07004153号</a></div>
 	  <!--end copyright -->
    </div>
    <!--end footer -->

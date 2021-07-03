@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name="keywords" content="ºÃÃÎÍø,»ª¶«½»Í¨´óÑ§,Ğ£ÓÑ,ÀÏÏç,Í¬Ñ§,Ğ£Ô°,ËÑË÷">
-<meta name="description" content="ºÃÃÎÍø,Ğ£Ô°ËÑË÷,Ìá¹©Ğ£ÓÑ²éÑ¯,³É¼¨²éÑ¯,Í¼Êé¹İ½èÔÄ²éÑ¯,ÓÊ¼ş°ü¹ü²éÑ¯">
-<title><?=$_REQUEST['key']?> - Í¬Ñ§ËÑË÷ - ºÃÃÎÍø</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="å¥½æ¢¦ç½‘,åä¸œäº¤é€šå¤§å­¦,æ ¡å‹,è€ä¹¡,åŒå­¦,æ ¡å›­,æœç´¢">
+<meta name="description" content="å¥½æ¢¦ç½‘,æ ¡å›­æœç´¢,æä¾›æ ¡å‹æŸ¥è¯¢,æˆç»©æŸ¥è¯¢,å›¾ä¹¦é¦†å€Ÿé˜…æŸ¥è¯¢,é‚®ä»¶åŒ…è£¹æŸ¥è¯¢">
+<title><?=$_REQUEST['key']?> - åŒå­¦æœç´¢ - å¥½æ¢¦ç½‘</title>
 <link rel="SHORTCUT ICON" href="images/favicon.ico">
 <link rel="stylesheet" href="images/ph.css" type="text/css" media="screen">
 <link rel="stylesheet" href="images/flickr.css" type="text/css" media="screen">
@@ -25,18 +25,18 @@ function hideBox(){
  <?php include("topmenu.html") ?>
  <!--end topMenu -->
 <div id="hd">
-	<div class="logo"><a href="http://student.hemon.cn/"><img src="images/logo.png" alt="Ğ£Ô°ËÑË÷" width="267" height="82" border="0"></a></div>
-	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?php echo $key;?>" type="text"><input value=" ËÑË÷ " class="button" type="submit"></form>
+	<div class="logo"><a href="http://student.hemon.cn/"><img src="images/logo.png" alt="æ ¡å›­æœç´¢" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?php echo $key;?>" type="text"><input value=" æœç´¢ " class="button" type="submit"></form>
   </div>
 </div>
 <div id="wp">
 <div class="mainl" style="width:286px; position:relative; top:-8px; float:right">
     <fieldset>
-	   <legend><?php echo $_REQUEST['key']?> °É</legend>
+	   <legend><?php echo $_REQUEST['key']?> å§</legend>
 	   <iframe src="dopost.php?key=<?php echo $_REQUEST['key']?>" width="100%" frameborder="0" scrolling="no" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight"></iframe>
     </fieldset>
     <br />
-    <!--<a href="q/hemon.exe"><img src="images/xiaoq.gif" alt="¡¾ÏÂÔØ¡¿Ğ£Ô°Q£¡¹µÍ¨£¬¾ÍÊÇÕâÃ´¼òµ¥£¡" width="283" height="484" /></a>-->
+    <!--<a href="q/hemon.exe"><img src="images/xiaoq.gif" alt="ã€ä¸‹è½½ã€‘æ ¡å›­Qï¼æ²Ÿé€šï¼Œå°±æ˜¯è¿™ä¹ˆç®€å•ï¼" width="283" height="484" /></a>-->
     </div>
 	<div class="mainr" style="width:659px">
         <div class="tab">
@@ -44,7 +44,7 @@ function hideBox(){
             <?php for($grade = $lastGrade; $grade >= $beginGrade; $grade--){ ?>
             <li class="<?php if($grade == $_REQUEST['grade']) echo 'up'; ?>" onclick="location='?key=<?php echo $_REQUEST['key']?>&grade=<?php echo $grade?>'"><?php echo $grade?></li>
             <?php } ?>
-            <li style="float:right">ÕÒµ½Í¬Ñ§ <?php echo $pageInfo['recordCount']?> Î»£¬ÓÃÊ± <?php echo $processed?> Ãë </li>
+            <li style="float:right">æ‰¾åˆ°åŒå­¦ <?php echo $pageInfo['recordCount']?> ä½ï¼Œç”¨æ—¶ <?php echo $processed?> ç§’ </li>
           </ul>
         </div>
         <table cellpadding="0" cellspacing="0" class="mytable" width="97%">
@@ -52,18 +52,18 @@ function hideBox(){
 
 <tr>
 <th>#</th>
-<th>ĞÕÃû</th>
-<th>ÉúÈÕ</th>
-<th>°à¼¶</th> 
-<th>Ãñ×å</th>
-<th>¼®¹á</th>
+<th>å§“å</th>
+<th>ç”Ÿæ—¥</th>
+<th>ç­çº§</th> 
+<th>æ°‘æ—</th>
+<th>ç±è´¯</th>
 </tr>
 
 
 <?php
         $i = 0;
-		$sex['Å®'] = 'girl';
-		$sex['ÄĞ'] = 'boy';
+		$sex['å¥³'] = 'girl';
+		$sex['ç”·'] = 'boy';
     	foreach($student as $s){
     	++$i;	 
 ?>
@@ -81,7 +81,7 @@ if( !empty($s['img']) && $s['img'] != 'http://head.xiaonei.com/photos/0/0/head.j
         <div><a class="<?php echo $sex[$s['sex']]?>" href="?key=<?php echo $s['sid']?>"><?php echo $s['name']?></a></div>
         <?if(!empty($s['unit'])):?>
             <div class="unit">
-                ¡¸<a href="?key=<?=$s['unit']?>"><?=$s['unit']?></a>¡¹ <?=$s['local']?>
+                ã€Œ<a href="?key=<?=$s['unit']?>"><?=$s['unit']?></a>ã€ <?=$s['local']?>
                 </div>
         <?endif;?>
     </td>

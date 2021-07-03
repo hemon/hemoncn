@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name="keywords" content="������,������ͨ��ѧ,У��,����,ͬѧ,У԰,����">
-<meta name="description" content="������,У԰����,�ṩУ�Ѳ�ѯ,�ɼ���ѯ,ͼ��ݽ��Ĳ�ѯ,�ʼ�������ѯ">
-<title><?=$_REQUEST['key']?> - �������� - ������</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="好梦网,华东交通大学,校友,老乡,同学,校园,搜索">
+<meta name="description" content="好梦网,校园搜索,提供校友查询,成绩查询,图书馆借阅查询,邮件包裹查询">
+<title><?=$_REQUEST['key']?> - 论文搜索 - 好梦网</title>
 <link rel="SHORTCUT ICON" href="images/favicon.ico">
 <link rel="stylesheet" href="images/ph.css" type="text/css" media="screen">
 <link rel="stylesheet" href="images/flickr.css" type="text/css" media="screen">
@@ -39,32 +39,32 @@ background-position:-151px -50px;
  <?php include("topmenu.html") ?>
  <!--end topMenu -->
 <div id="hd">
-	<div class="logo"><a href="http://cnki.hemon.cn/"><img src="images/logo.png" alt="У԰����" width="267" height="82" border="0"></a></div>
-	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?=$key?>" type="text"><input value=" ���� " class="button" type="submit"></form>
+	<div class="logo"><a href="http://cnki.hemon.cn/"><img src="images/logo.png" alt="校园搜索" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?=$key?>" type="text"><input value=" 搜索 " class="button" type="submit"></form>
   </div>
 </div>
 <div id="wp">
 <div class="mainl" style="width:286px; position:relative; top:-8px; float:right">
     <fieldset>
-	   <legend><?=$key?> ��</legend>
+	   <legend><?=$key?> 吧</legend>
 	   <iframe src="dopost.php?key=<?=urlencode($key)?>" width="100%" frameborder="0" scrolling="no" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight"></iframe>
     </fieldset>
     <br />
-    <!--<a href="q/hemon.exe"><img src="images/xiaoq.gif" alt="�����ء�У԰Q����ͨ��������ô�򵥣�" width="283" height="484" /></a>-->
+    <!--<a href="q/hemon.exe"><img src="images/xiaoq.gif" alt="【下载】校园Q！沟通，就是这么简单！" width="283" height="484" /></a>-->
     </div>
 	<div class="mainr" style="width:659px">
         <div class="tab">
-          <ul><li>���� <span style="font-size:14px; font-weight: bold;"><?=$key?></span> ���м�¼ <?=$list['stat']?> ������ʱ <?=$processed?> �� </li>
+          <ul><li>检索 <span style="font-size:14px; font-weight: bold;"><?=$key?></span> 命中记录 <?=$list['stat']?> 条，用时 <?=$processed?> 秒 </li>
           </ul>
       </div>
         <table cellpadding="0" cellspacing="0" class="mytable" width="640" id="book_list">
 <tbody>
 
 <tr>
-<th width="50%">ƪ��</th>
-<th width="10%">����</th>
-<th width="20%">����</th>
-<th width="10%">��������</th>
+<th width="50%">篇名</th>
+<th width="10%">作者</th>
+<th width="20%">刊名</th>
+<th width="10%">出版年月</th>
 <th width="10%">&nbsp;</th>
 </tr>
 
@@ -76,7 +76,7 @@ if($list['data']) foreach($list['data'] as $row) :
 	<td><?=$row[3]?></td>
 	<td title="<?=$row[4]?>"><?=$row[4]?></td>
 	<td><?=$row[5]?></td>
-	<td><a href="?action=view&<?=$row[0]?>" class="view" title="�Ķ�" target="_blank"></a><a href="?action=download&<?=$row[0]?>" class="download" title="����"></a></td>
+	<td><a href="?action=view&<?=$row[0]?>" class="view" title="阅读" target="_blank"></a><a href="?action=download&<?=$row[0]?>" class="download" title="下载"></a></td>
 </tr>
 <?php
 endforeach;
