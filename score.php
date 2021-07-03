@@ -7,7 +7,7 @@ $sid     = $_REQUEST['sid'];
 $course  = $_REQUEST['course'];
 $student = getStudentInfo($sid);
 if( !is_array($student) ){
-    js_alert("Sorry £¬²éÎŞ´ËÈË£¡", "history.go(-1)");
+    js_alert("Sorry ï¼ŒæŸ¥æ— æ­¤äººï¼", "history.go(-1)");
 }
 
 $cid       = substr($student['cid'], 0, 12);
@@ -20,16 +20,16 @@ $terms     = getTerm($beginTerm, $lastTerm);
 if( empty($course) ){
     $where[] = "sid = '$sid'";
 } else {
-    /* ²éÑ¯Í¬°àÍ¬Ñ§
-    *  old:Ê¹ÓÃsubstring±È½ÏÇ°12Î»°à¼¶±àºÅÊÇ·ñÏàµÈ
-    *  new:½¨Á¢classcodeË÷Òı,Ê¹ÓÃlike xxx%²éÑ¯Ê±¿ÉÊ¹ÓÃË÷Òı
+    /* æŸ¥è¯¢åŒç­åŒå­¦
+    *  old:ä½¿ç”¨substringæ¯”è¾ƒå‰12ä½ç­çº§ç¼–å·æ˜¯å¦ç›¸ç­‰
+    *  new:å»ºç«‹classcodeç´¢å¼•,ä½¿ç”¨like xxx%æŸ¥è¯¢æ—¶å¯ä½¿ç”¨ç´¢å¼•
     */
     $where[] = "cid LIKE '$cid%'";
     $where[] = "course = '$course'";
 }
 
 if($thisTerm == $lastTerm) {
-    // Ó¢Óï·Ö¼¶½ÌÑ§,ÌáÇ°Ñ§Ï°ÏÂÑ§ÆÚÓ¢Óï
+    // è‹±è¯­åˆ†çº§æ•™å­¦,æå‰å­¦ä¹ ä¸‹å­¦æœŸè‹±è¯­
     $where[] = "term >= '$thisTerm'";
 } else {
     $where[] = "term = '$thisTerm'";

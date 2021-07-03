@@ -6,7 +6,7 @@ require_once 'mod/subscibe.func.php';
 
 $v = new Validator();
 if( !$v->is_mobile($_REQUEST['mobile']) ){
-    js_alert("ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·£¡");
+    js_alert("æ‰‹æœºå·ç æ ¼å¼ä¸æ­£ç¡®ï¼");
 }
 
 $action = $_REQUEST['action'];
@@ -16,9 +16,9 @@ switch ($action) {
         $authcode = authcode($_REQUEST['mobile']);
         if( 60 > (time() - $_SESSION['time']) ){
             $_SESSION['time'] = time();
-            mail("$sid@139.com", "ÄúµÄÑéÖ¤ÂëÎª$authcode");
+            mail("$sid@139.com", "æ‚¨çš„éªŒè¯ç ä¸º$authcode");
         }
-        js_alert("ÑéÖ¤ÂëÒÑ·¢³ö£¬ÇëÄÍĞÄµÈ´ı¡£");
+        js_alert("éªŒè¯ç å·²å‘å‡ºï¼Œè¯·è€å¿ƒç­‰å¾…ã€‚");
 	default:
         $sid = $_SESSION['usr']['sid'];
         $mobile = $_REQUEST['mobile'];

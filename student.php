@@ -8,7 +8,7 @@ $key = $_REQUEST['key'];
 $page = ( isset($_REQUEST['page']) ? $_REQUEST['page'] : 1 );
 
 if( 4 > strlen($key) ){
-    js_alert("ÇëÖÁÉÙÊäÈëËÄ¸ö×Ö·û£¨»òÁ½¸öºº×Ö£©×÷Îª²éÑ¯Ìõ¼ş£¡", "history.go(-1)");
+    js_alert("è¯·è‡³å°‘è¾“å…¥å››ä¸ªå­—ç¬¦ï¼ˆæˆ–ä¸¤ä¸ªæ±‰å­—ï¼‰ä½œä¸ºæŸ¥è¯¢æ¡ä»¶ï¼", "history.go(-1)");
 }
 
 $rs = getStudent($key, $page);

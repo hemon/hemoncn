@@ -11,17 +11,17 @@ switch ($action) {
         $usr = login($sid, $password);
 		
         if( empty($usr) ){
-            js_alert("Ñ§ºÅ»òÕßÃÜÂë´íÎó£¬ÌáÊ¾£ºÃÜÂëÄ¬ÈÏÎª½ÌÎñ´¦Ñ¡¿ÎÃÜÂë¡£");
+            js_alert("å­¦å·æˆ–è€…å¯†ç é”™è¯¯ï¼Œæç¤ºï¼šå¯†ç é»˜è®¤ä¸ºæ•™åŠ¡å¤„é€‰è¯¾å¯†ç ã€‚");
         } else {
 			$_SESSION['usr'] = $usr;
 			$location = ( !empty($_REQUEST['refer']) ? $_REQUEST['refer']: 'http://my.hemon.cn');
-			js_alert("µÇÂ¼³É¹¦£¡", "parent.location='$location'");
+			js_alert("ç™»å½•æˆåŠŸï¼", "parent.location='$location'");
 		}
         
         break;
     case 'logout':
         session_destroy();
-        js_alert("°²È«ÍË³ö£¡", "location='/index.php'");
+        js_alert("å®‰å…¨é€€å‡ºï¼", "location='/index.php'");
         break;
 	default:
 		include('templates/login.html');

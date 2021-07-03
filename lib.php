@@ -34,7 +34,7 @@ switch (true) {
     case isset($_REQUEST['img']):
         $isbn = $_REQUEST['img'];
 		$img = getBookImg($isbn);
-        // Êä³öÍ¼Ïñ
+        // è¾“å‡ºå›¾åƒ
         header("Content-type: " . image_type_to_mime_type(IMAGETYPE_JPEG));
         echo file_get_contents($img);
         break;
@@ -45,20 +45,20 @@ switch (true) {
         break;
     default :
         $key = trim($_REQUEST['key']);
-        // ·ÖÒ³
+        // åˆ†é¡µ
         $page = ( isset($_REQUEST['page']) ? $_REQUEST['page'] : 1);
-        // ¹Ø¼ü×Ö±àÂë
+        // å…³é”®å­—ç¼–ç 
         if( 'UTF-8' == $_REQUEST['encode'] ){
             $key = mb_convert_encoding($key, "GB2312", "UTF-8, GBK, GB2312");
         }
-        // ½èÊéÖ¤ºÅ
+        // å€Ÿä¹¦è¯å·
         if( preg_match('/\d{8}/', $key) ){
             header("Location: ?userid=$key");
             exit;
         } else {
-        // Í¼ÊéÁĞ±í
+        // å›¾ä¹¦åˆ—è¡¨
             $list = getList($key, $page);
-            // ÁĞ±íÖ»ÓĞÒ»Ìõ¼ÇÂ¼£¬Ö±½ÓÌø×ªµ½½á¹ûÒ³
+            // åˆ—è¡¨åªæœ‰ä¸€æ¡è®°å½•ï¼Œç›´æ¥è·³è½¬åˆ°ç»“æœé¡µ
             if( $list['status']['total'] == 1 ){
                 $bookid = array_shift(array_keys($list['data']));
                 header("Location: ?bookid=$bookid");
@@ -72,7 +72,7 @@ switch (true) {
 if($book === false ||
    $user === false ||
    $list === false ){
-    echo "<script>alert('·Ç³£±§Ç¸£¬ÓÉÓÚÍøÂç»òÍ¼Êé¹İ×ÔÉí¹ÊÕÏ£¬ÎŞ·¨»ñÈ¡Êı¾İ£¬ÇëÉÔºòÔÙÊÔ¡­¡­')</script>";
+    echo "<script>alert('éå¸¸æŠ±æ­‰ï¼Œç”±äºç½‘ç»œæˆ–å›¾ä¹¦é¦†è‡ªèº«æ•…éšœï¼Œæ— æ³•è·å–æ•°æ®ï¼Œè¯·ç¨å€™å†è¯•â€¦â€¦')</script>";
 }
 
 ?>

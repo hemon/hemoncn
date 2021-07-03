@@ -17,7 +17,7 @@ if( !empty($action) ){
                 addPost($keyword, $username, $name, $content);
         }
     } else {
-        js_alert("ÁôÑÔÇëÏÈµÇÂ½£¡","history.go(-1)");
+        js_alert("ç•™è¨€è¯·å…ˆç™»é™†ï¼","history.go(-1)");
     }
 }
 

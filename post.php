@@ -3,11 +3,11 @@ require_once 'config.php';
 require_once 'redirect.php';
 require_once 'lib/DB.php';
 
-if($_REQUEST['ptype'] == 'È«²¿') unset($_REQUEST['ptype']);
+if($_REQUEST['ptype'] == 'å…¨éƒ¨') unset($_REQUEST['ptype']);
 $page = (!empty($_REQUEST['page']) ? $_REQUEST['page'] : 1);
 
-$ptypes = array('È«²¿','¿ìµÝ','¹ÒºÅÐÅ','°ü¹ü','Ó¡Ë¢Æ·','»ã¿îµ¥','ÍË¼þ','ÒøÐÐ¿¨');
-$ptype = (!empty($_REQUEST['ptype']) ? $_REQUEST['ptype']: 'È«²¿');
+$ptypes = array('å…¨éƒ¨','å¿«é€’','æŒ‚å·ä¿¡','åŒ…è£¹','å°åˆ·å“','æ±‡æ¬¾å•','é€€ä»¶','é“¶è¡Œå¡');
+$ptype = (!empty($_REQUEST['ptype']) ? $_REQUEST['ptype']: 'å…¨éƒ¨');
 
 $db = new DB('edu_postoffice');
 $post = $db->selectPage($_REQUEST, $page, 20, '*', 'arrival DESC', 0);

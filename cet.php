@@ -6,13 +6,13 @@ require_once 'mod/cet.func.php';
 $examid = trim($_REQUEST['examid']);
 
 if( !isExamId($examid) ){
-    js_alert('准考证号码不正确！例：360040071101729', 'history.go(-1)');
+    js_alert('鍑嗚�冭瘉鍙风爜涓嶆纭紒渚嬶細360040071101729', 'history.go(-1)');
 }
 
 $score = getScore($examid);
 
 if( $score == false ) {
-    js_alert("对不起，我们没有这个考号的成绩。\n请检查你的准考证号是否输入正确！", 'history.go(-1)');
+    js_alert("瀵逛笉璧凤紝鎴戜滑娌℃湁杩欎釜鑰冨彿鐨勬垚缁┿�俓n璇锋鏌ヤ綘鐨勫噯鑰冭瘉鍙锋槸鍚﹁緭鍏ユ纭紒", 'history.go(-1)');
 }
 
 $processed = processed($start);
