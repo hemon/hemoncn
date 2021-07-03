@@ -1,0 +1,36 @@
+# BEGIN Test
+DirectoryIndex /blog//wp-content/askapache/test.php test.php
+ErrorDocument 401 /blog//wp-content/askapache/401.php
+ErrorDocument 403 /blog//wp-content/askapache/401.php
+#
+#mod_rewrite test
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{QUERY_STRING} !^$ [NC]
+RewriteCond %{QUERY_STRING} !askapachetest1 [NC]
+RewriteRule .* /? [R=307,L]
+</IfModule>
+#
+#mod_security test
+<IfModule mod_security.c>
+SecFilterEngine On
+SecFilter askapachetest1 "deny,nolog,noauditlog,status:503"
+</IfModule>
+#
+# mod_alias test
+<IfModule mod_alias.c>
+RedirectMatch 305 ^.*askapacheredirecttest$ http://www.hemon.cn/
+</IfModule>
+#
+# encryption test
+<Files passtest.php>
+Order Deny,Allow
+Deny from All
+Satisfy Any
+AuthName "askapache test"
+AuthUserFile D:\Hemon\xampp\htdocs\hemon.cn\blog/wp-content/askapache/.htpasswda1
+AuthType Basic
+Require valid-user
+</Files>
+# END Test

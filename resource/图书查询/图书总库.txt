@@ -1,0 +1,21 @@
+<HTML><meta http-equav="content-type" content="text/html;charset=cn-gb">
+<body bgcolor="#ffffff" text="#000000" link="#003399" vlink="#9999cc" background="/images/back1.jpg">
+
+<P><BR CLEAR>当前路径为: /图书总库, 含下列目录项:
+<UL>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/全部途径"><LI>全部途径</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/书名"><LI>书名</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/作者"><LI>作者</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/ISBN"><LI>ISBN</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/主题"><LI>主题</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/分类号"><LI>分类号</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/索书号"><LI>索书号</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/典藏册条码"><LI>典藏册条码</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/登录号"><LI>登录号</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/册条码"><LI>册条码</A>
+<A HREF="/dtcgibin/cgi32.exe?se+/图书总库/记录索引号"><LI>记录索引号</A>
+</UL>
+<BR><BR>
+
+
+</HTML>

@@ -1,0 +1,133 @@
+<html>
+<title>班级对应代号</title>
+
+<style>
+a:link {  text-decoration: none}
+a:visited {color: #004080; text-decoration: none;}
+a:hover {  color: #8000ff; text-decoration: underline}
+</style>
+
+
+<h2 align = center >班级与班级代号对应表</h2><hr width="75%">
+
+<center>输入班级名称查询</center>
+<table border=0 align=center>
+  <tr> 
+    <td> 
+      <form name=form1 action=class.php>
+        <input type=text name=var_class>
+        <input type=hidden name=job value=query>
+        <input type=submit name=Submit value=查询>
+     
+      </form>
+    </td>
+  </tr>
+</table><table align=center border=0><tr><td><font color=red>731</font>条记录：每页<font color=red>30</font>条，共<font color=red>25</font>页，当前第<font color=red>21</font>页</td></tr></table><table align=center border=1>
+	<tr><td bgcolor=009999>班级名称</td>
+<td bgcolor=009999>班级代号</td>
+</tr><tr><td>建筑电气2009-2</td>
+<td>200902101302</td>
+</tr><tr><td>机械2009-1</td>
+<td>200903100101</td>
+</tr><tr><td>机械2009-2</td>
+<td>200903100102</td>
+</tr><tr><td>机械2009-3</td>
+<td>200903100103</td>
+</tr><tr><td>机械2009-4</td>
+<td>200903100104</td>
+</tr><tr><td>机械2009-5</td>
+<td>200903100105</td>
+</tr><tr><td>材料2009-1</td>
+<td>200903100401</td>
+</tr><tr><td>材料2009-2</td>
+<td>200903100402</td>
+</tr><tr><td>机械电子2009-1</td>
+<td>200903100601</td>
+</tr><tr><td>机械电子2009-2</td>
+<td>200903100602</td>
+</tr><tr><td>机械电子2009-3</td>
+<td>200903100603</td>
+</tr><tr><td>机械电子2009-4</td>
+<td>200903100604</td>
+</tr><tr><td>工业工程2009-1</td>
+<td>200903101001</td>
+</tr><tr><td>工业工程2009-2</td>
+<td>200903101002</td>
+</tr><tr><td>测控2009-1</td>
+<td>200903101101</td>
+</tr><tr><td>测控2009-2</td>
+<td>200903101102</td>
+</tr><tr><td>交通运输2009-1</td>
+<td>200903101201</td>
+</tr><tr><td>交通运输2009-2</td>
+<td>200903101202</td>
+</tr><tr><td>物流2009-1</td>
+<td>200903101401</td>
+</tr><tr><td>物流2009-2</td>
+<td>200903101402</td>
+</tr><tr><td>车辆工程2009-1</td>
+<td>200903101501</td>
+</tr><tr><td>车辆工程2009-2</td>
+<td>200903101502</td>
+</tr><tr><td>会计2009-1</td>
+<td>200904100101</td>
+</tr><tr><td>会计2009-2</td>
+<td>200904100102</td>
+</tr><tr><td>会计2009-3</td>
+<td>200904100103</td>
+</tr><tr><td>经济2009-1</td>
+<td>200904100201</td>
+</tr><tr><td>统计2009-1</td>
+<td>200904100301</td>
+</tr><tr><td>国经2009-1</td>
+<td>200904100401</td>
+</tr><tr><td>人资2009-1</td>
+<td>200904100601</td>
+</tr><tr><td>人资2009-2</td>
+<td>200904100602</td>
+</tr></table>
+<form ><center>
+<table border=0><tr align=center valign=bottom><td>
+<a href="class.php?start=19&job=see&=&Name=&Course=&ClassID=&Term=&StuID=">上一页</a>|<a href="class.php?start=21&job=see&=&Name=&Course=&ClassID=&Term=&StuID=">下一页</a>
+</td><td>| 第<select name=xstart onchange='document.forms[1].start.value=document.forms[1].xstart.value-1;document.forms[1].submit();'>
+<option value=1>1
+<option value=2>2
+<option value=3>3
+<option value=4>4
+<option value=5>5
+<option value=6>6
+<option value=7>7
+<option value=8>8
+<option value=9>9
+<option value=10>10
+<option value=11>11
+<option value=12>12
+<option value=13>13
+<option value=14>14
+<option value=15>15
+<option value=16>16
+<option value=17>17
+<option value=18>18
+<option value=19>19
+<option value=20>20
+<option value=21  selected>21
+<option value=22>22
+<option value=23>23
+<option value=24>24
+<option value=25>25
+</select>页
+<input type=hidden name=job value= see>
+<input type=hidden name=start>
+<input type=hidden name= value=>
+<input type=hidden name=Name value=>
+<input type=hidden name=Course value=>
+<input type=hidden name=ClassID value=>
+<input type=hidden name=Term value=>
+<input type=hidden name=StuID value=>
+
+</td></tr>
+</table></center></form>
+<hr width="75%">
+<p align=center>
+<a href=main.php>返回</a>
+</html>

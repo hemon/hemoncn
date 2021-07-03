@@ -1,0 +1,53 @@
+9
+
+dir
+373
+http://www.hemon.cn/svn/hemon.cn/trunk/blog/wp-content/languages
+http://www.hemon.cn/svn/hemon.cn
+
+
+
+2008-09-05T06:53:46.250000Z
+301
+hemon
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c9216ca5-8e93-1644-863e-4ccdb5d324c7
+
+zh_CN.mo
+file
+
+
+
+
+2008-09-17T04:06:23.903588Z
+541e8fbe4d78795f549e7df02f71d6c2
+2008-09-05T06:53:46.250000Z
+301
+hemon
+has-props
+
+zh_CN.po
+file
+
+
+
+
+2008-09-17T04:06:23.923617Z
+d5389a58c159c4be63044dec63f06c0e
+2008-09-05T06:53:46.250000Z
+301
+hemon
+

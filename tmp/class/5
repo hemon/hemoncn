@@ -1,0 +1,133 @@
+<html>
+<title>班级对应代号</title>
+
+<style>
+a:link {  text-decoration: none}
+a:visited {color: #004080; text-decoration: none;}
+a:hover {  color: #8000ff; text-decoration: underline}
+</style>
+
+
+<h2 align = center >班级与班级代号对应表</h2><hr width="75%">
+
+<center>输入班级名称查询</center>
+<table border=0 align=center>
+  <tr> 
+    <td> 
+      <form name=form1 action=class.php>
+        <input type=text name=var_class>
+        <input type=hidden name=job value=query>
+        <input type=submit name=Submit value=查询>
+     
+      </form>
+    </td>
+  </tr>
+</table><table align=center border=0><tr><td><font color=red>731</font>条记录：每页<font color=red>30</font>条，共<font color=red>25</font>页，当前第<font color=red>6</font>页</td></tr></table><table align=center border=1>
+	<tr><td bgcolor=009999>班级名称</td>
+<td bgcolor=009999>班级代号</td>
+</tr><tr><td>艺术设计(视觉传达) 2006-1</td>
+<td>200611110501</td>
+</tr><tr><td>会计(国会)2006-1</td>
+<td>200612110101</td>
+</tr><tr><td>会计(国会)2006-2</td>
+<td>200612110102</td>
+</tr><tr><td>软件工程2006-1</td>
+<td>200621100101</td>
+</tr><tr><td>软件工程2006-2</td>
+<td>200621100102</td>
+</tr><tr><td>软件工程2006-3</td>
+<td>200621100103</td>
+</tr><tr><td>软件工程2006-4</td>
+<td>200621100104</td>
+</tr><tr><td>软件工程2006-5</td>
+<td>200621100105</td>
+</tr><tr><td>软件工程2006-6</td>
+<td>200621100106</td>
+</tr><tr><td>软件工程2006-7</td>
+<td>200621100107</td>
+</tr><tr><td>软件工程2006-8</td>
+<td>200621100108</td>
+</tr><tr><td>软件工程2006-9</td>
+<td>200621100109</td>
+</tr><tr><td>软件工程2006-10</td>
+<td>200621100110</td>
+</tr><tr><td>软件工程2006-11</td>
+<td>200621100111</td>
+</tr><tr><td>网络工程2006-1</td>
+<td>200621100201</td>
+</tr><tr><td>网络工程2006-2</td>
+<td>200621100202</td>
+</tr><tr><td>网络工程2006-3</td>
+<td>200621100203</td>
+</tr><tr><td>信息工程2006-1</td>
+<td>200621100301</td>
+</tr><tr><td>信息工程2006-2</td>
+<td>200621100302</td>
+</tr><tr><td>信息工程2006-3</td>
+<td>200621100303</td>
+</tr><tr><td>电子商务2006-1</td>
+<td>200621100401</td>
+</tr><tr><td>电子商务2006-2</td>
+<td>200621100402</td>
+</tr><tr><td>电子商务2006-3</td>
+<td>200621100403</td>
+</tr><tr><td>软件(软件测试）2006-1</td>
+<td>200621110501</td>
+</tr><tr><td>软件(软件测试）2006-2</td>
+<td>200621110502</td>
+</tr><tr><td>软件(软件测试）2006-3</td>
+<td>200621110503</td>
+</tr><tr><td>软件(软件测试）2006-4</td>
+<td>200621110504</td>
+</tr><tr><td>软件(软件测试）2006-5</td>
+<td>200621110505</td>
+</tr><tr><td>软件(软件测试）2006-6</td>
+<td>200621110506</td>
+</tr><tr><td>软件工程(多媒体)2006-1</td>
+<td>200621110601</td>
+</tr></table>
+<form ><center>
+<table border=0><tr align=center valign=bottom><td>
+<a href="class.php?start=4&job=see&=&Name=&Course=&ClassID=&Term=&StuID=">上一页</a>|<a href="class.php?start=6&job=see&=&Name=&Course=&ClassID=&Term=&StuID=">下一页</a>
+</td><td>| 第<select name=xstart onchange='document.forms[1].start.value=document.forms[1].xstart.value-1;document.forms[1].submit();'>
+<option value=1>1
+<option value=2>2
+<option value=3>3
+<option value=4>4
+<option value=5>5
+<option value=6  selected>6
+<option value=7>7
+<option value=8>8
+<option value=9>9
+<option value=10>10
+<option value=11>11
+<option value=12>12
+<option value=13>13
+<option value=14>14
+<option value=15>15
+<option value=16>16
+<option value=17>17
+<option value=18>18
+<option value=19>19
+<option value=20>20
+<option value=21>21
+<option value=22>22
+<option value=23>23
+<option value=24>24
+<option value=25>25
+</select>页
+<input type=hidden name=job value= see>
+<input type=hidden name=start>
+<input type=hidden name= value=>
+<input type=hidden name=Name value=>
+<input type=hidden name=Course value=>
+<input type=hidden name=ClassID value=>
+<input type=hidden name=Term value=>
+<input type=hidden name=StuID value=>
+
+</td></tr>
+</table></center></form>
+<hr width="75%">
+<p align=center>
+<a href=main.php>返回</a>
+</html>

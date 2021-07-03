@@ -1,0 +1,78 @@
+body, td, a, p, .h {
+font-family:arial,sans-serif;
+}
+.h {
+font-size:20px;
+}
+.h {
+color:#3366CC;
+}
+.q {
+color:#0000CC;
+}
+.ts td {
+padding:0pt;
+}
+.ts {
+border-collapse:collapse;
+}
+#gbar {
+float:left;
+font-weight:bold;
+height:22px;
+padding-left:2px;
+}
+#gbh {
+border-top:1px solid #C9D7F1;
+font-size:0pt;
+height:0pt;
+position:absolute;
+right:0pt;
+top:24px;
+width:200%;
+}
+#gbi {
+background:#FFFFFF none repeat scroll 0%;
+border-color:#C9D7F1 rgb(51, 102, 204) rgb(51, 102, 204) rgb(162, 186, 231);
+border-style:solid;
+border-width:1px;
+font-size:13px;
+top:24px;
+z-index:1000;
+}
+#guser {
+padding-bottom:7px !important;
+}
+#gbar, #guser {
+font-size:13px;
+padding-top:1px !important;
+}
+.gb1, .gb3 {
+display:inline;
+height:22px;
+margin-right:1em;
+vertical-align:top;
+}
+#gbi, .gb2 {
+display:none;
+position:absolute;
+width:7em;
+}
+.gb2 {
+z-index:1001;
+}
+#gbar a, #gbar a:active, #gbar a:visited {
+color:#0000CC;
+font-weight:normal;
+}
+.gb2 a, .gb3 a {
+text-decoration:none;
+}
+.gb2 a {
+display:block;
+padding:0.2em 0.5em;
+}
+#gbar .gb2 a:hover {
+background:#3366CC none repeat scroll 0%;
+color:#FFFFFF;
+}

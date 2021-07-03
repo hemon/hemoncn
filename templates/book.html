@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="<?=implode(',',$book[200])?>">
+<meta name="description" content="<?=$book[330]['a']?>">
+<title><?=$book['200']['a']?> - 图书搜索 - hemon.cn</title>
+<link rel="SHORTCUT ICON" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="images/ph.css">
+<link rel="stylesheet" type="text/css" href="images/topmenu.css" />
+<link rel="stylesheet" type="text/css" href="images/douban.css" />
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/lib.js" ></script>
+<style>h2{font-weight:bold}</style>
+</head>
+<body onload="reader()">
+ <!--topMenu -->
+ <?php include("topmenu.html") ?>
+ <!--end topMenu -->
+<div id="hd">
+	<div class="logo"><a href="http://lib.hemon.cn/"><img src="images/logo.png" alt="校园搜索" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?=$key?>" type="text"><input value=" 搜索 " class="button" type="submit"></form>
+  </div>
+</div>
+<div id="wp">
+<div class="mainl" style="width:286px; position:relative; top:-8px; float:right">
+    <fieldset>
+	   <legend><span class="obmo">
+	   <?=substr($book['200']['a'], 0, 38)?>
+	   </span> 吧</legend>
+	   <iframe src="dopost.php?key=<?=urlencode($book['200']['a'])?>" width="100%" frameborder="0" scrolling="no" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight;doubanIframe.location='?douban=<?=$book['010']['a']?>/'"></iframe>
+    </fieldset>
+  </div>
+	<div class="mainr" style="width:659px">
+        <div class="tab">
+          <ul><li class="up">
+		  	  <span style="font-weight:bold; font-size:14px"><?=$book['200']['a']?></span>
+              <?php if( !empty($book[200]['e']) ) : ?>
+              <span class="pl">—&nbsp;&nbsp;<?=$book['200']['e']?></span>
+			  <?php endif; ?>
+			  </li>
+          </ul>
+      </div>
+	<div class="indent">
+	  <div class="subjectwrap">
+		<div id="mainpic">
+        <img src="?img=<?=$book['010']['a']?>" width="150px" style="border:1px solid #DDDDDD;" /><br /></div>
+		<div id="info">
+		<?php if( !empty($book['510']['a']) ) : ?>
+			<span class="pl2">又名: 
+			  <a href="?key=<?=$book['510']['a']?>" target="_blank"><?=$book['510']['a']?></a>
+			  <?=$book['5101']['e']?>
+			</span><br />
+		<?php endif; ?>
+			<span class="pl2">分类号: 
+			  <a href="?key=<?=$book['905']['d']?>" target="_blank"><?=$book['905']['d']?></a>
+			</span><br />
+			<?php $typeName = ifempty($book['606']['a'], localType($book['905']['d'],0,0));?>
+            <span class="pl2">分类:
+             <a href="?key=<?=$typeName?>" target="_blank"><?=$typeName?></a>
+            </span><br />
+		<?php if( !empty($book['461']['a']) ) : ?>
+			<span class="pl2">丛书: 
+			  <a href="?key=<?=$book['461']['a']?>" target="_blank"><?=$book['461']['a']?></a>
+			</span><br />
+		<?php endif; ?>
+    		<br />
+    		<span class="pl2">作者: <?=$book['200']['f']?></span><br />
+    		  <?php if( !empty($book['200']['g']) ) : ?>
+    		  <span class="pl2">译者: <?=$book['200']['g']?></span><br />
+    		<?php endif; ?>
+    		  <div class="obmo">
+    		  <?php if( !empty($book[2001]['e']) ) : ?>
+    		    <span class="pl">副标题:</span>
+    			  <span class="pl2">
+    				<?=$book['200']['e']?>
+    			  </span><br />
+    		  <?php endif; ?>
+    			  <span 
+    class="pl">ISBN:</span>
+    			  <a href="http://www.douban.com/isbn/<?=$book['010']['a']?>" target="_blank"><?=$book['010']['a']?></a>
+    			  <br />
+    			  <span class="pl">页数:</span>
+    			  <?=$book['215']['a']?>
+    			  <br />
+    			  <span 
+    class="pl">定价:</span>
+    			  <?=$book['010']['d']?>
+    			  <br />
+    			  <span class="pl">出版社:</span>
+    			  <?=$book[210]['c']?><br />
+    			  <span class="pl">出版年:</span>
+    			  <?=$book[210]['d']?>
+    			  <br />
+    		  </div>
+		</div>
+	  </div>
+	</div>
+	<?php if( !empty($book[330]['a']) ) : ?>
+	<h2>内容简介</h2>
+	<div class="indent" style="text-indent: 2em;" id="intro"><?=$book[330]['a']?></div>
+	<?php endif; ?>
+	<div class="indent" id="begin" style="display:none"></div>
+	<h2>馆藏分布</h2>
+	<div class="indent">
+		<?php if( 0 < count($book['986']) ) : ?>
+		<fieldset>
+		<table width="97%" cellpadding="0" cellspacing="0" class="mytable"  style="">
+		<tbody>
+		<tr>
+		<th>登录号</th>
+		<th>图书馆</th>
+		<th>书库</th>
+		<th>读者</th> 
+		<th>还书日</th>
+		</tr>
+		<?php foreach($book['986'] as $item) : ?>
+		<tr>
+		  <td><?=$item['a']?></td>
+			<td><?=ifempty($item['b'],'南区')?></td>
+			<td><?=localType($book['905']['d'], $item['b'], 'lib')?></td>
+			<td><?php if(isset($item['r'])):?><a href="?userid=<?=$item['r']?>" target="_blank" class="reader"><?=$item['r']?></a><?php endif;?></td>
+			<td><?=$item['t']?></td>
+		</tr>
+		<?php endforeach; ?>
+		</tbody>
+	  </table>
+	  </fieldset>
+	  <?php else: ?>
+	  无馆藏信息！
+	  <?php endif;?>
+	</div>
+</div>
+</div>
+<iframe name="doubanIframe" style="display:none"></iframe>
+<?php include("footer.html") ?>

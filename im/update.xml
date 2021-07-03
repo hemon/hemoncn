@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<versions>
+<latest ordinal="2.6" name="SoapBox" download="http://www.coversant.net/" installer="http://www.coversant.net/downloads/soapbox.updates/SoapBox-2.6.exe" parameters="/S autoupdate">
+<changelog>
+<html xmlns="http://jabber.org/protocol/xhtml-im">
+<body xmlns="http://www.w3.org/1999/xhtml" style="font-family: Tahoma, Arial;">
+<div style="padding: 8px;">
+<h2 style="font-weight: bold; font-size: 14px; color: #000; margin: 0;">SoapBox 2.6 update</h2> 
+<p>We are pleased to announce the release of SoapBox 2.6</p> 
+<h3 style="font-style: italic; font-weight: bold; font-size: 14px; color: #888; margin: 0;">Download size is 1.79 megabytes</h3> 
+</div>
+</body>
+</html>
+</changelog>
+</latest>
+</versions>

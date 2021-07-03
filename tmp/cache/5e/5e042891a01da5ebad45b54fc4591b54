@@ -1,0 +1,210 @@
+s:15446:"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <title>LINUX高级开发技术 (豆瓣)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT" />
+    <meta name="keywords" content="LINUX高级开发技术" />
+        <link href="http://otho.douban.com/css/douban18135.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://otho.douban.com/js/jquery5785.js"></script>
+    <script type="text/javascript" src="http://otho.douban.com/js/jquery.suggest15215.js"></script>
+    <script type="text/javascript" src="http://otho.douban.com/js/douban18135.js"></script>
+    <link rel="alternate" href="/feed/subject/1222707/reviews" type="application/rss+xml" title="RSS" />
+        <link rel="shortcut icon" href="http://otho.douban.com/favicon.ico" type="image/x-icon" />
+    </head>
+    <body><div id="maxw">
+    <form id="ssform" name="ssform" method="get" action="/subject_search">
+    <div id="header"><a href="http://www.douban.com" title="豆瓣"><img src="http://otho.douban.com/pics/logosmall.gif" alt="douban" class="logo"/></a><div id="nav"><a class="now" href="/"><span>首页</span></a> <a href="/mine/">我的豆瓣</a> <a href="/contacts/">友邻</a> <a href="/group/">小组</a> <a href="/book/">读书</a> <a href="/movie/">电影</a> <a href="/music/">音乐</a> <a href="/event/">同城</a> <a style="color:#eb9000" href="/plaza/">广场</a> </div><div id="searbar">
+    <span>
+    <a class="arrow" href="javascript:void(0)">
+    <img src="http://otho.douban.com/pics/down.gif" class="down" alt="" />
+    <img src="http://otho.douban.com/pics/up.gif" class="up" alt="" /></a>
+    <div id="dsearch" class="hidesub">
+    <a href="/subject_search?cat=1001">书籍</a>
+    <a href="/subject_search?cat=1002">电影</a><a href="/subject_search?cat=1003">音乐</a><a href="/subject_search?cat=1010">博客</a><a href="/group/search">小组</a>
+    <a href="/people_search">成员</a>
+    <a href="/event/search">活动</a></div>
+    </span>
+    <span class="submit"><input class="butt minisubmit" style="letter-spacing:4px" type="submit" value="搜索"/>
+    </span>
+    <span>
+    <input class="j a_search_text" id="page_focus" name="search_text"
+    title="书籍、电影、音乐、活动、博客" type="text" size="22" maxlength="60" value="" />
+    </span>
+    </div><div class="clear"></div><div id="status"><div id="subnav"></div><span class="pl">你好，请 <a href="/login" rel="nofollow">登录</a>或 <a href="/register">注册</a></span></div>
+    <div class="clear"></div></div></form><h1>LINUX高级开发技术</h1><script type="text/javascript">
+    Douban.prettify_form(document.getElementById('ssform'));
+    </script>
+    
+    <div id="main">
+    <div id="tablem">
+    <div id="in_tablem">
+    <div class="indent"><div class="subjectwrap"><div id="interest_sectl"><div id="interest_sect"><h2  >加入我的收藏 &nbsp; 
+        </h2><a href="/register?reason=collectwish&ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-1222707-wish"><span>想读</span></a><a href="/register?reason=collectdo&ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-1222707-do"><span>在读</span></a><a href="/register?reason=collectcollect&ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-1222707-collect"><span>读过</span></a><div class="clear"></div><span class="j a_stars"><p class="rate_stars">评价:
+    <span id="rating"><span id="stars">
+    <a href="/register?reason=rate" class="j a_show_login" name="pbtn-1222707-1"><img src="http://otho.douban.com/pics/nst.gif" id="star1"/></a><a href="/register?reason=rate" class="j a_show_login" name="pbtn-1222707-2"><img src="http://otho.douban.com/pics/nst.gif" id="star2"/></a><a href="/register?reason=rate" class="j a_show_login" name="pbtn-1222707-3"><img src="http://otho.douban.com/pics/nst.gif" id="star3"/></a><a href="/register?reason=rate" class="j a_show_login" name="pbtn-1222707-4"><img src="http://otho.douban.com/pics/nst.gif" id="star4"/></a><a href="/register?reason=rate" class="j a_show_login" name="pbtn-1222707-5"><img src="http://otho.douban.com/pics/nst.gif" id="star5"/></a></span><span id="rateword" class="pl"/></span>
+    <input type="hidden" value=""  /></span></p></span></div><div class="ul" style="margin:5px 0 10px 0"></div><div class="marks clearbox"><span class="stars5 starstop" title="力荐"></span><div class="power" style="width:0px"></div>
+    0<br/>
+        <span class="stars4 starstop" title="推荐"></span><div class="power" style="width:0px"></div>
+    0<br/>
+        <span class="stars3 starstop" title="还行"></span><div class="power" style="width:0px"></div>
+    0<br/>
+        <span class="stars2 starstop" title="较差"></span><div class="power" style="width:0px"></div>
+    0<br/>
+        <span class="stars1 starstop" title="很差"></span><div class="power" style="width:0px"></div>
+    0<br/>
+        </div><div class="ul" style="margin:10px 0"></div><div class="actbtns">
+    
+    <span id="C-1222707">
+    <a href="/register?reason=collect" class="j a_show_login " name="rbtn-C-1222707-"><img src="http://otho.douban.com/pics/recommend.gif" /></a></span>
+    </div></div>
+         <div id="mainpic"><a href="http://otho.douban.com/lpic/s1437066.jpg"><img src="http://otho.douban.com/mpic/s1437066.jpg" title="点击看大图"/ alt="LINUX高级开发技术"/></a><br/>
+        <p class="gact" align="center"><a href="/subject/1222707/blogit" rel="nofollow">放在你的blog里!</a></p>
+            </div><div id="info"><span><span class="pl">作者</span>: <a href="/book/search/%E9%BB%84%E8%B6%85">黄超</a></span><br/><div class="obmo"><span class="pl">ISBN:</span> 9787111106036 <br/><span class="pl">页数:</span> 410<br/><span class="pl">定价:</span> 39.0<br/><span class="pl">出版社:</span> 机械工业出版社<br/><span class="pl">装帧:</span> 平装<br/><span class="pl">出版年:</span> 2002-8-1<br/></div></div></div></div><br clear="all"><div id="collect_form_1222707"></div>
+    <a name="hiddenlogin"></a>
+<style>@import url("/css/pop_login4.css");</style>
+<div style="display:none" id="pop_login">
+            <a class="close" href="javascript:close_dialog();void(0)">X</a>
+            <div class="loadpop">
+<h2>登录   · · · · · ·</h2>
+<form action="/login" method="post" name="lzform" class="pop_login">
+    <div class="input">
+    <div class="login_input">
+        <span>Email:  </span>
+        <input type="text" class="text pop_email" name="form_email" />
+    </div>
+    <div class="login_input">
+        <span>密 &nbsp;码: </span>
+        <input type="password" class="text" name="form_password" />
+         <a style="margin-left:.8em" href="/login?reset=password">忘记密码了</a>
+    </div>
+    <div class="pop_rem">
+        <input type="checkbox" id="pop_remember" name="remember" />
+        <label for="pop_remember" class="pl">在这台电脑上记住我</label>
+    </div>
+    <div class="pop_sub">
+    <input type="submit" value="登录" class="submit"/>            </div>
+    <a href="/register" class="pop_reg">&gt;还没有注册...</a>
+    </div>
+</form>
+            </div>
+        </div>
+<div class="related_info"><h2  >简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent">　　为了让读者对 Linux 的高级应用开发有一个基本的了解，本书首先介绍了 Linux 网络开发技术中的 Linux 设备驱动程序的知识和 Linux 数据库开发方面的基础知识。接着介绍了MYSQL数据库，MYSQL语言的基础知识，以及MYSQL的应用开发，最后介绍了GTK开发工具及编程实例和PHP开发及汉化方面的内容。 <br/>　　    本书主要适用于已经对 Linux 的基本性能比较熟悉，希望在 Linux 平台上做一些基础开发的人员。同时由于本书是 Linux 开发技术中的高级部分，对于用户的水平要求相对要高一些。因此应对前面的基础开发比较了解之后再阅读本书，那样才能收到较好的效果。<br/></div> <span><a class="redbutt ll j a_show_login" href="/register?reason=discuss"><span>第一个在"LINUX高级开发技术"的论坛里发言</span></a>
+        
+<style>@import url("/css/pop_login4.css");</style>
+<div style="display:none" id="pop_login">
+            <a class="close" href="javascript:close_dialog();void(0)">X</a>
+            <div class="loadpop">
+<h2>登录   · · · · · ·</h2>
+<form action="/login" method="post" name="lzform" class="pop_login">
+    <div class="input">
+    <div class="login_input">
+        <span>Email:  </span>
+        <input type="text" class="text pop_email" name="form_email" />
+    </div>
+    <div class="login_input">
+        <span>密 &nbsp;码: </span>
+        <input type="password" class="text" name="form_password" />
+         <a style="margin-left:.8em" href="/login?reset=password">忘记密码了</a>
+    </div>
+    <div class="pop_rem">
+        <input type="checkbox" id="pop_remember" name="remember" />
+        <label for="pop_remember" class="pl">在这台电脑上记住我</label>
+    </div>
+    <div class="pop_sub">
+    <input type="submit" value="登录" class="submit"/>            </div>
+    <a href="/register" class="pop_reg">&gt;还没有注册...</a>
+    </div>
+</form>
+            </div>
+        </div>
+</span><div class="clear"></div><span>
+             <a class="redbutt ll j a_show_login" href="/register?reason=review" rel="nofollow"><span>我来评论这本书</span></a>
+             
+<style>@import url("/css/pop_login4.css");</style>
+<div style="display:none" id="pop_login">
+            <a class="close" href="javascript:close_dialog();void(0)">X</a>
+            <div class="loadpop">
+<h2>登录   · · · · · ·</h2>
+<form action="/login" method="post" name="lzform" class="pop_login">
+    <div class="input">
+    <div class="login_input">
+        <span>Email:  </span>
+        <input type="text" class="text pop_email" name="form_email" />
+    </div>
+    <div class="login_input">
+        <span>密 &nbsp;码: </span>
+        <input type="password" class="text" name="form_password" />
+         <a style="margin-left:.8em" href="/login?reset=password">忘记密码了</a>
+    </div>
+    <div class="pop_rem">
+        <input type="checkbox" id="pop_remember" name="remember" />
+        <label for="pop_remember" class="pl">在这台电脑上记住我</label>
+    </div>
+    <div class="pop_sub">
+    <input type="submit" value="登录" class="submit"/>            </div>
+    <a href="/register" class="pop_reg">&gt;还没有注册...</a>
+    </div>
+</form>
+            </div>
+        </div>
+</span><div class="clear"></div></div>
+    </div></div>
+    <div id="tablerm">
+    <div class="gray_ad"><h2  >在哪儿买这本书? &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><ul class="bs"><li><a target="_blank" href="/link2?type=buy&subject=1222707&vendor=dangdang&url=http%3A//union.dangdang.com/transfer/transfer.aspx%3Ffrom%3D362-A100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26backurl%3Dhttp%3A//product.dangdang.com/product.aspx%3Fproduct_id%3D636431">当当网</a> (<a target=_blank href="/link2?type=buy&subject=1222707&vendor=dangdang&url=http%3A//union.dangdang.com/transfer/transfer.aspx%3Ffrom%3D362-A100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26backurl%3Dhttp%3A//product.dangdang.com/product.aspx%3Fproduct_id%3D636431">RMB 29.20</a>)
+                </li><li><a target="_blank" href="/link2?type=buy&subject=1222707&vendor=welan&url=http%3A//www.wl.cn/union/Rec.aspx%3Fid%3D11861%26rd%3D7%26cookie%3DA100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26url%3Dhttp%3A//www.wl.cn/1053513">蔚蓝网</a> (<a target=_blank href="/link2?type=buy&subject=1222707&vendor=welan&url=http%3A//www.wl.cn/union/Rec.aspx%3Fid%3D11861%26rd%3D7%26cookie%3DA100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26url%3Dhttp%3A//www.wl.cn/1053513">RMB 35.10</a>)
+                </li><li><a target="_blank" href="/link2?type=buy&subject=1222707&vendor=bookschina&url=http%3A//www.bookschina.com/union/uniondouban.asp%3Fltinfo%3DA100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26url%3Dhttp%3A//www.bookschina.com/1213347.htm">中国图书网</a> (<a target=_blank href="/link2?type=buy&subject=1222707&vendor=bookschina&url=http%3A//www.bookschina.com/union/uniondouban.asp%3Fltinfo%3DA100020760%257C20424083000000%255E20081031163344-565%257C99999%257C60%257C%26url%3Dhttp%3A//www.bookschina.com/1213347.htm">RMB 34.30</a>)
+                </li><li><a href="/subject/1222707/buylinks">查看6家网店价格(27.30元起)</a></li></li></ul></div><div class="indent"><ul class="bs"><li><a class="rr j a_show_login" href="/register?reason=secondhand-offer&cat=book"><span>&gt; 点这儿转让</span></a>
+        手里有一本闲着? 
+<style>@import url("/css/pop_login4.css");</style>
+<div style="display:none" id="pop_login">
+            <a class="close" href="javascript:close_dialog();void(0)">X</a>
+            <div class="loadpop">
+<h2>登录   · · · · · ·</h2>
+<form action="/login" method="post" name="lzform" class="pop_login">
+    <div class="input">
+    <div class="login_input">
+        <span>Email:  </span>
+        <input type="text" class="text pop_email" name="form_email" />
+    </div>
+    <div class="login_input">
+        <span>密 &nbsp;码: </span>
+        <input type="password" class="text" name="form_password" />
+         <a style="margin-left:.8em" href="/login?reset=password">忘记密码了</a>
+    </div>
+    <div class="pop_rem">
+        <input type="checkbox" id="pop_remember" name="remember" />
+        <label for="pop_remember" class="pl">在这台电脑上记住我</label>
+    </div>
+    <div class="pop_sub">
+    <input type="submit" value="登录" class="submit"/>            </div>
+    <a href="/register" class="pop_reg">&gt;还没有注册...</a>
+    </div>
+</form>
+            </div>
+        </div>
+</li></ul></div> <h2>谁读这本书?</h2><div class="indent"></div><br/> <br/>  <br/><div class="clear"></div><p class="pl">订阅关于LINUX高级开发技术的评论: <br/><div class="feed">
+    <a href="/feed/subject/1222707/reviews"> feed: rss 2.0</a></div></p></div>
+    </div><div class="fdiv cleafix"><div class="ul"></div>
+        <span class="fspl">&copy; 2005－2008 douban.com, all rights reserved
+        
+        </span><span class="fspr">
+        <a href="/about">关于豆瓣</a>
+        · <a href="/about?policy=disclaimer">免责声明</a>
+        · <a href="/about?policy=privacy">隐私原则</a>
+        · <a href="/help/">帮助中心</a>
+        · <a href="/service/">豆瓣服务(API)</a>
+        </span></div></div><script type="text/javascript">
+    $(document).ready(function() {
+        id = $('div[@id^="daslot"]').attr('id');
+	if (id) {
+            params = id.split("_");
+            $.get("/j/da/view?das=" + params[1] + "&da=" +
+                params[2] + "&dap=" + params[3] + "&kws=" +
+                params[4]);
+	}
+    });
+    </script></body></html>";

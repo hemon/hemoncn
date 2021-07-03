@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0034)http://lib.blcu.edu.cn/ywgf/lt.htm -->
+<HTML><HEAD><TITLE>流通及典藏机读数据说明</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css>.p9 {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 15pt
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3059" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=blue aLink=red link=green bgColor=#fffff8>
+<CENTER>
+<H3 align=left>流通及典藏机读格式说明</H3></CENTER><SPAN class=p9>一、读者库机读数据说明 </SPAN>
+<CENTER>
+<TABLE class=p9>
+  <TBODY>
+  <TR>
+    <TD>100 @a条码号@b其他证件号<BR>200 @a姓名@A姓名拼音@b性别@c国籍@dE-mail<BR>300 
+      @a单位名称@b电话@c职称@d职务@e发证日期(YYYYMMDD)<BR>400 @a邮政编码@b通讯地址<BR>982 
+      @a读者类型@d证有效期(YYYYMMDD)@z附注<BR><BR>读者类型　可借册数　借期　续借期　可预约册数　预约书到馆　过期一天<BR>　　　　　　　　　　　　　　　　　　（暂无）　后保留天数　罚款金额<BR>　03型　　　　３　　３５　　３５　　　　３　　　　５　　　　１０<BR>　05型　　　　５　　３５　　３５　　　　５　　　　５　　　　１０<BR>　10型　　　１０　　６５　　３５　　　　５　　　　５　　　　１０<BR>　20型　　　２０　　６５　　３５　　　　５　　　　５　　　　１０<BR>　21型　　　２１　１８０　　３５　　　　５　　　　５　　　　１０<BR>　　　　　　　册　　　天　　　天　　　　册　　　　天　　　　　分<BR>(21型为一分馆专用)<BR><BR>以下982、986、989的数据请不要手工改动：<BR>982 
+      @c当前借书册数<BR>986 @a当前借书条码@t借书日期@v还书日期<BR>989 
+      @a以前借书条码@t以前借书日期<BR><BR>书目库流通字段说明（以下980、982、986字段请不要手工改动）：<BR>980 
+      @a年代@b该年流通次数<BR>982 @c可借复本数<BR>986 
+@a书条码@r读者借书证号@t应还书日期<BR></TD></TR></TBODY></TABLE></CENTER><SPAN 
+class=p9><BR>二、简易对应库(-2库)机读数据说明 </SPAN>
+<CENTER>
+<TABLE class=p9>
+  <TBODY>
+  <TR>
+    <TD>010　@aISBN号@d￥单价<BR>1010 @a语种<BR>2001 
+      @a书名@f作者<BR>210　@a出版地@c出版者@d出版年月　　　　　　　　<BR>300　@a附注项<BR>701 0@a作者<BR>701 
+      0@a作者<BR>905　@d分类号@e书次号<BR>906　@a册条码@b馆藏标识<BR>986　@a册条码 <BR><BR>
+      <TABLE class=p9 border=1>
+        <CAPTION>常用语种代码对照表</CAPTION>
+        <TBODY>
+        <TR>
+          <TH>国别</TH>
+          <TH>机读格式</TH>
+          <TH>原卡片格式</TH></TR>
+        <TR>
+          <TD>阿尔巴尼亚语</TD>
+          <TD>alb</TD>
+          <TD>A</TD></TR>
+        <TR>
+          <TD>阿拉伯语</TD>
+          <TD>ara</TD>
+          <TD>Ar</TD></TR>
+        <TR>
+          <TD>孟国拉语</TD>
+          <TD>ben</TD>
+          <TD>Be</TD></TR>
+        <TR>
+          <TD>缅甸语</TD>
+          <TD>bur</TD>
+          <TD>Bu</TD></TR>
+        <TR>
+          <TD>捷克语</TD>
+          <TD>cze</TD>
+          <TD>C</TD></TR>
+        <TR>
+          <TD>柬埔寨语</TD>
+          <TD>cam</TD>
+          <TD>Ca</TD></TR>
+        <TR>
+          <TD>汉语</TD>
+          <TD>chi</TD>
+          <TD>Ch</TD></TR>
+        <TR>
+          <TD>德语</TD>
+          <TD>ger</TD>
+          <TD>D</TD></TR>
+        <TR>
+          <TD>丹麦语</TD>
+          <TD>dan</TD>
+          <TD>Da</TD></TR>
+        <TR>
+          <TD>西班牙语</TD>
+          <TD>spa</TD>
+          <TD>E</TD></TR>
+        <TR>
+          <TD>英语</TD>
+          <TD>eng</TD>
+          <TD>En</TD></TR>
+        <TR>
+          <TD>世界语</TD>
+          <TD>esp</TD>
+          <TD>Es</TD></TR>
+        <TR>
+          <TD>法语</TD>
+          <TD>fre</TD>
+          <TD>F</TD></TR>
+        <TR>
+          <TD>希腊语</TD>
+          <TD>gre</TD>
+          <TD>G</TD></TR>
+        <TR>
+          <TD>印地语</TD>
+          <TD></TD>
+          <TD>Hin</TD></TR>
+        <TR>
+          <TD>意大利语</TD>
+          <TD>ita</TD>
+          <TD>I</TD></TR>
+        <TR>
+          <TD>印尼语</TD>
+          <TD>ind</TD>
+          <TD>In</TD></TR>
+        <TR>
+          <TD>冰岛语</TD>
+          <TD>ice</TD>
+          <TD>Is</TD></TR>
+        <TR>
+          <TD>日语</TD>
+          <TD>jpn</TD>
+          <TD>J</TD></TR>
+        <TR>
+          <TD>朝鲜语</TD>
+          <TD>kor</TD>
+          <TD>K</TD></TR>
+        <TR>
+          <TD>韩国语</TD>
+          <TD>kor</TD>
+          <TD>K</TD></TR>
+        <TR>
+          <TD>拉丁语</TD>
+          <TD>lat</TD>
+          <TD>La</TD></TR>
+        <TR>
+          <TD>老挝语</TD>
+          <TD></TD>
+          <TD>Lao</TD></TR>
+        <TR>
+          <TD>匈牙利语</TD>
+          <TD>hun</TD>
+          <TD>M</TD></TR>
+        <TR>
+          <TD>蒙古语</TD>
+          <TD>mon</TD>
+          <TD>Mo</TD></TR>
+        <TR>
+          <TD>荷兰语</TD>
+          <TD>dut</TD>
+          <TD>N</TD></TR>
+        <TR>
+          <TD>尼泊尔语</TD>
+          <TD>nep</TD>
+          <TD>Ne</TD></TR>
+        <TR>
+          <TD>挪威语</TD>
+          <TD>nor</TD>
+          <TD>No</TD></TR>
+        <TR>
+          <TD>葡萄牙语</TD>
+          <TD>por</TD>
+          <TD>P</TD></TR>
+        <TR>
+          <TD>波斯语</TD>
+          <TD>per</TD>
+          <TD>Pe</TD></TR>
+        <TR>
+          <TD>波兰语</TD>
+          <TD>pol</TD>
+          <TD>Po</TD></TR>
+        <TR>
+          <TD>俄语</TD>
+          <TD>rus</TD>
+          <TD>Py</TD></TR>
+        <TR>
+          <TD>罗马尼亚语</TD>
+          <TD>rum</TD>
+          <TD>R</TD></TR>
+        <TR>
+          <TD>瑞典语</TD>
+          <TD>swe</TD>
+          <TD>Sv</TD></TR>
+        <TR>
+          <TD>土尔其语</TD>
+          <TD>tur</TD>
+          <TD>T</TD></TR>
+        <TR>
+          <TD>泰语</TD>
+          <TD>tha</TD>
+          <TD>Th</TD></TR>
+        <TR>
+          <TD>越语</TD>
+          <TD>vie</TD>
+          <TD>V</TD></TR>
+        <TR>
+          <TD>梵语</TD>
+          <TD>san</TD>
+          <TD>Sa</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></CENTER><SPAN 
+class=p9><BR>三、借书时的对应操作 </SPAN>
+<CENTER>
+<TABLE class=p9>
+  <TBODY>
+  <TR>
+    <TD>　　当在借出书时，计算机不能识别该书条形码时，应进行对应操作。首先<BR>用“LTDY***-2”进行编目注册，用书名或分类号进行图书总库的查找，会<BR>出现以下结果：<BR>１、找到。这时请将该书的条码号写入到906@a和986@a中，在906@b写入“基藏”，<BR>　　存盘。<BR>　　（若当前的记录号大于6000000，则直接存盘即可）<BR>　　（若当前的记录号小于6000000，则要求“-1”库的口令，操作完成后<BR>　　应退出对应的编目系统，以保证下次以“-2”进入，以使空白工作单加<BR>　　到“-2”库的最后。）<BR>２、没找到。这时请进行简易对应操作，即加入空白工作单，输入简易对应<BR>　　内容，存盘。<BR>　　（操作结束后，它的记录号应大于6000000）<BR>注意：在“-1”库中只能存写９０６和９８６字段，其它字段将不能存盘操作。<BR>　　　在“-2”库中能存写一条记录的所有字段。<BR></TD></TR></TBODY></TABLE></CENTER><SPAN 
+class=p9><BR>四、典藏操作 </SPAN>
+<CENTER>
+<TABLE class=p9>
+  <TBODY>
+  <TR>
+    <TD>1、用典藏用户名和口令进入编目系统。<BR>2、用条码号找这本书：<BR>　　　　若找到，在906@b中加馆藏标识。操作结束。<BR>　　　　若没找到，操作如下3。<BR>3、用分类号或书名再找这本书：<BR>　　　　若找到，加条码号到906@a和986@a中，同时在906@b中加馆藏标识。<BR>　　　　若没找到，则此书交编目部门按新书处理。<BR>馆藏标识：中阅、外阅、教阅、信息、文检、库本、基藏、文化、文库、工具书、电阅、<BR>　　　　一分馆、二分馆、汉研中心。<BR>　　注：一分馆指主楼地下一层房间处。<BR><BR>4、对于丢失书及赔偿书，在906@e中加入“注销”字样。<BR></TD></TR></TBODY></TABLE>
+<DIV align=left><BR><SPAN class=p9>五、补充说明 </SPAN></DIV>
+<CENTER>
+<TABLE class=p9 width=472>
+  <TBODY>
+  <TR>
+    <TD 
+      height=18>　　2004年3月：增加一分馆读者库，字段说明与原“读者库”同，只是借书证的条码号是7位，即在原5位条码号前加“FG”字样，表示“分馆”，借书证用同一个证，借书证的打印号还是5位。注意字母的大小写，原则上一律用大写。“FG*****”只能在分馆使用。<BR><BR>总结如下：<BR>　　读者库----证条码号长5位。<BR>　　图书总库----书条码号长6位。 
+      <BR>　　一分馆读者库----证条码号长7位，但仍使用原借书证，借书时由分馆工作人员区分其有效性。 
+</TD></TR></TBODY></TABLE></CENTER>
+<HR width="100%" noShade SIZE=5>
+</CENTER></BODY></HTML>

@@ -1,0 +1,12 @@
+<!--{template header}-->
+
+
+<div class="c_header a_header" >
+	<a href="space.php?uid=$space[uid]"><img src="<!--{avatar($space[uid],small)}-->" alt="$space[username]" class="avatar" /></a>
+	<h1>¶·ÊÞÆå</h1>
+	<a href="space.php?uid=$space[uid]" class="spacelink">ÎÒµÄ¿Õ¼ä</a>
+</div>
+
+<iframe id="frame_content" src="./ds/index.php" scrolling="no" frameborder="0" width="800" onload="this.height=100"></iframe><script type="text/javascript">function reinitIframe(){var iframe = document.getElementById("frame_content");try{var bHeight = iframe.contentWindow.document.body.scrollHeight;var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;var height = Math.max(bHeight, dHeight);iframe.height = height;}catch (ex){}}window.setInterval("reinitIframe()", 200);</script> 
+
+<!--{template footer}-->

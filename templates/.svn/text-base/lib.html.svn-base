@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="好梦网,华东交通大学,校友,老乡,同学,校园,搜索">
+<meta name="description" content="好梦网,校园搜索,提供校友查询,成绩查询,图书馆借阅查询,邮件包裹查询">
+<title><?=$key?> - 图书搜索 - 好梦网</title>
+<link rel="SHORTCUT ICON" href="images/favicon.ico">
+<link rel="stylesheet" href="images/ph.css" type="text/css" media="screen">
+<link rel="stylesheet" href="images/flickr.css" type="text/css" media="screen">
+<link href="images/topmenu.css" rel="stylesheet" type="text/css" />
+<script src="js/function.js" type="text/javascript"></script>
+<style>
+#book_list{
+	table-layout:fixed;
+}
+#book_list td{
+	overflow:hidden;
+	text-overflow:clip;
+	white-space:nowrap;
+}
+</style>
+</head>
+<body>
+ <!--topMenu -->
+ <?php include("topmenu.html") ?>
+ <!--end topMenu -->
+<div id="hd">
+	<div class="logo"><a href="http://lib.hemon.cn/"><img src="images/logo.png" alt="校园搜索" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="key" id="s" value="<?=$key?>" type="text"><input value=" 搜索 " class="button" type="submit"></form>
+  </div>
+</div>
+<div id="wp">
+<div class="mainl" style="width:286px; position:relative; top:-8px; float:right">
+    <fieldset>
+	   <legend><?=$key?> 吧</legend>
+	   <iframe src="dopost.php?key=<?=urlencode($key)?>" width="100%" frameborder="0" scrolling="no" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight"></iframe>
+    </fieldset>
+    <br />
+    <!--<a href="q/hemon.exe"><img src="images/xiaoq.gif" alt="【下载】校园Q！沟通，就是这么简单！" width="283" height="484" /></a>-->
+    </div>
+	<div class="mainr" style="width:659px">
+        <div class="tab">
+          <ul><li>检索 <span style="font-size:14px; font-weight: bold;"><?=$key?></span> 命中记录 <?=$list['status']['total']?> 条，用时 <?=$processed?> 秒 </li>
+          </ul>
+      </div>
+        <table cellpadding="0" cellspacing="0" class="mytable" width="640" id="book_list">
+<tbody>
+
+<tr>
+<th width="40%">书名</th>
+<th width="20%">作者</th>
+<th width="20%">出版社</th>
+<th width="10%">出版年月</th>
+<th width="10%">&nbsp;</th>
+</tr>
+
+
+<?php
+$i = 0;
+foreach($list['data'] as $bookid => $book) :
+?>
+<tr>
+    <td title="<?=$book['200']['a']?>"><a href="<?="?bookid=$bookid"?>" target="_blank"><?=$book['200']['a']?></a></td>
+	<td title="<?=$book['200']['f']?>"><?=$book['200']['f']?></td>
+	<td title="<?=$book['210']['c']?>"><?=$book[210]['c']?></td>
+	<td><?=$book[210]['d']?></td>
+	<td title="<?=$book['200']['a']?>"><a href="<?="?bookid=$bookid"?>" class="button" target="_blank">&gt;</a></td>
+</tr>
+<?php
+endforeach;
+?>
+</tbody>
+</table>
+<div class="Paginator">
+<?=page(
+array (
+  'currentPage' => (isset($_REQUEST['page']) ? $_REQUEST['page'] : 1),
+  'pageCount' => ceil($list['status']['total'] / 20),
+  'recordCount' => $list['status']['total'],
+  'pageSize' => 20
+), 'key')?>
+</div>
+</div>
+<?php include("footer.html") ?>

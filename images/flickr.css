@@ -1,0 +1,82 @@
+.Pages {
+margin-bottom:20px;
+text-align:center;
+font-family:Arial,Helvetica,sans-serif;
+}
+.Paginator {
+font-size:12px;
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+}
+.Paginator a, .pageList .this-page {
+color:#0063DC;
+background:#FFFFFF none repeat scroll 0%;
+border:1px solid #DDDDDD;
+padding:2px 6px;
+text-decoration:none;
+}
+.Paginator a:visited {
+background:#FFFFFF none repeat scroll 0%;
+border:1px solid #DDDDDD;
+padding:2px 6px;
+text-decoration:none;
+}
+.Paginator .AtStart {
+background:#FFFFFF none repeat scroll 0%;
+color:#AAAAAA;
+margin-right:20px;
+padding:2px 6px;
+}
+.Paginator .Prev {
+background:#FFFFFF none repeat scroll 0%;
+border:2px solid #DDDDDD;
+margin-right:20px;
+padding:2px 6px;
+}
+.Paginator .break {
+background:#FFFFFF none repeat scroll 0%;
+border:medium none;
+padding:2px 6px;
+text-decoration:none;
+}
+.Paginator .Next {
+background:#FFFFFF none repeat scroll 0%;
+border:2px solid #DDDDDD;
+margin-left:20px;
+padding:2px 6px;
+}
+.Paginator .AtEnd {
+background:#FFFFFF none repeat scroll 0%;
+color:#AAAAAA;
+margin-left:20px;
+padding:2px 6px;
+}
+.Paginator strong {
+background:#FFFFFF none repeat scroll 0%;
+border-color:#999999;
+color:#FF0084;
+font-size:13px;
+font-weight:bold;
+padding:2px 6px;
+vertical-align:top;
+}
+.Paginator a:hover {
+background:#0063DC none repeat scroll 0%;
+border-color:#003366;
+color:#FFFFFF;
+text-decoration:none;
+}
+.Pages div.Results {
+color:#AAAAAA;
+font-family:Arial,Helvetica;
+font-size:11px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:15px;
+margin-top:8px;
+text-align:center;
+}

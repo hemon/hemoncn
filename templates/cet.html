@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="CET,四六级,四六级成绩,大学英语,华东交通大学,校友,老乡,同学,校园,搜索">
+<meta name="description" content="CET,四六级,四六级成绩,校园搜索,提供校友查询,成绩查询,图书馆借阅查询,邮件包裹查询">
+<title><?=$examid?> - 四六级成绩 - 好梦网</title>
+<link rel="SHORTCUT ICON" href="images/favicon.ico">
+<link rel="stylesheet" href="images/ph.css" type="text/css" media="screen">
+<link href="images/topmenu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ <!--topMenu -->
+ <?php include("topmenu.html") ?>
+ <!--end topMenu -->
+<div id="hd">
+	<div class="logo"><a href="http://cet.hemon.cn/"><img src="images/logo.png" alt="校园搜索" width="267" height="82" border="0"></a></div>
+	<div class="sebar"><form method="get"><input class="input" name="examid" id="s" value="<?php echo $examid;?>" type="text">
+	<input value=" 搜索 " class="button" type="submit"></form>
+  </div>
+</div>
+<div id="wp">
+<div class="mainl">
+		<h1>我的同学</h1>
+		 <div class="rm">
+		 	<ul>
+				<?php 
+					for($i = 1; $i <= 30; $i++){ 
+						$examid = substr($_REQUEST['examid'], 0, 13) . str_pad("$i", 2, "0", STR_PAD_LEFT);
+				?>
+				<li class="<?php if( $_REQUEST['examid'] == $examid ) echo 'tab big' ?>"><a href="?examid=<?php echo $examid?>"><?php echo $examid?></a></li>
+				<?php } ?>
+		   </ul>
+		 </div>
+</div>
+  <div class="mainl" style="width:286px; position:relative; top:-8px; float:right">
+    <fieldset>
+	   <legend>CET 吧</legend>
+	   <iframe src="dopost.php?key=CET" width="100%" frameborder="0" scrolling="no" name="mypost" id="mypost" onload="this.height=mypost.document.body.scrollHeight"></iframe>
+    </fieldset>
+</div>
+	<div class="mainr" style="width:470px">
+        <div class="tab">
+          <ul>
+            <li>准考证号：<?php echo $_REQUEST['examid'] ?> ，用时 <?php echo $processed?> 秒 </li>
+          </ul>
+        </div>
+        <table cellpadding="0" cellspacing="0" class="mytable" width="97%">
+<tbody>
+
+<tr>
+<th>听力</th>
+<th>阅读</th>
+<th>综合</th> 
+<th>写作</th>
+<th>总分</th>
+</tr>
+
+<tr>
+  <td><?php echo $score[0] ?></td>
+	<td><?php echo $score[1] ?></td>
+	<td><?php echo $score[2] ?></td>
+	<td><?php echo $score[3] ?></td>
+	<td><?php echo $score[4] ?></td>
+	</tr>
+</tbody>
+</table>
+  </div>
+</div>
+<?php include("footer.html") ?>

@@ -1,0 +1,54 @@
+{template header}
+
+<script src="js/common.js" type="text/javascript"></script>
+<div class="container">
+	<h3>{lang note_list}</h3>
+	<!--{if $status == 2}-->
+		<div class="correctmsg"><p>{lang note_list_updated}</p></div>
+	<!--{/if}-->
+	<div class="mainbox">
+		<!--{if $notelist}-->
+			<form action="admin.php?m=note&a=ls" method="post">
+			<input type="hidden" name="formhash" value="{FORMHASH}">
+			<table class="datalist" onmouseover="addMouseEvent(this);" style="overflow-x:scroll;table-layout:fixed;">
+				<tr>
+					<th width="60"><input type="checkbox" name="chkall" id="chkall" onclick="checkall('delete[]')" class="checkbox" /><label for="chkall">{lang note_delete}</label></th>
+					<th width="130">{lang note_operation}</th>
+					<th width="60">{lang note_times}</th>
+					<th width="50">{lang note_param}</th>
+					<th width="140">{lang note_last_note_time}</th>
+					<!--{loop $applist $app}-->
+						<!--{if $app['recvnote']}-->
+							<th width="50">$app[name]</th>
+						<!--{/if}-->
+					<!--{/loop}-->
+				</tr>
+				<!--{loop $notelist $note}-->
+					<tr>
+						<td><input type="checkbox" name="delete[]" value="$note[noteid]" class="checkbox" /></td>
+						<td><strong>$note[operation]</strong></td>
+						<td>$note[totalnum]</td>
+						<td><a href="###" onclick="alert('{$note[getdata]}$note[postdata2]');">{lang note_view}</a></td>
+						<td>$note[dateline]</td>
+						<!--{loop $applist $appid $app}-->
+							<!--{if $app['recvnote']}-->
+								<td>$note[status][$appid]</td>
+							<!--{/if}-->
+						<!--{/loop}-->
+					</tr>
+				<!--{/loop}-->
+				<tr class="nobg">
+					<td><input type="submit" value="{lang submit}" class="btn" /></td>
+					<td class="tdpage" colspan="{eval echo count($applist) + 4;}">$multipage</td>
+				</tr>
+			</table>
+			</form>
+		<!--{else}-->
+			<div class="note">
+				<p class="i">{lang list_empty}</p>
+			</div>
+		<!--{/if}-->
+	</div>
+</div>
+
+{template footer}

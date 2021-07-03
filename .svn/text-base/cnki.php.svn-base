@@ -1,0 +1,7 @@
+<?php
+require_once 'config.php';
+require_once 'mod/cnki.func.php';
+
+$key = 'php';
+echo cnki($key);
+?>

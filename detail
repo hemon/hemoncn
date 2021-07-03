@@ -1,0 +1,786 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>
+			Expert Knowledge System of Wood Drying Based on PHP-中国期刊全文数据库</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="gridcss.css" type="text/css" rel="stylesheet">
+		<SCRIPT language="javascript" src="detail.js"></SCRIPT>
+		
+		<style type="text/css">
+			#NewButt { POSITION: relative }
+			#NewButt DIV { RIGHT: 4px; WIDTH: 150px; POSITION: absolute; TOP: 48px; HEIGHT: 34px }
+		</style>
+	</HEAD>
+	<body onresize="ResizeMinSize();" bgColor="#ffffff" leftMargin="0" topMargin="0">
+	<!--
+	<script for="ad_flash" event="FSCommand()" language="javascript">
+        document.getElementById("ad").style.display="none";
+    </script>
+	<div id="ad" style="position: absolute; top: 130px; right: 10px;">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+            width="120" height="180" id="ad_flash">
+            <param name="movie" value="ad.swf" />
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent" />
+            <embed src="ad.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                type="application/x-shockwave-flash" width="120" height="180"></embed>
+        </object>
+    </div>
+
+    <div style="clear: both">
+    </div>
+	-->
+		<!-- 项部banner start -->
+<LINK href="http://piccache.cnki.net/kns50/skin/kns52/style.css" type=text/css rel=stylesheet>
+<TABLE border="0" cellSpacing="0" cellPadding="0" width="100%">
+	<TBODY>
+		<TR>
+			<TD width="50%" valign="bottom"><a href="http://www.cnki.net" target="_top"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images//logo-knsdetail.gif" width="99" height="26" border="0"></a><A href="/kns50"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_02.gif" border="0"></A><A href="/kns50/index.aspx"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_03.gif"  border="0"></A><a href="http://kbs.cnki.net"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_04.gif"  border="0"></a><a href="http://rss.cnki.net/grid20/rss.htm"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_05.gif" border="0"></a><a href="http://search.cnki.net"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_06.gif"  border="0"></a><a href="http://www.cnki.net/software/xzydq.htm"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dk_top_07.gif" border="0"></a><a href="/kns50/help/help.aspx"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/11_07.gif"  border="0"></a><a href="/kns50/logout.aspx" target="_self"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_06.gif"  border="0"></a><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop1_07.gif"></TD>
+			<TD vAlign="bottom" width="50%" style="display:none"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_01.gif"><A href="/kns50/" target="_self"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_02.gif" border=0></A><A href="/kns50/index.aspx" target="_self"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_03.gif" border=0></A><a href="http://service.cnki.net/bbs7/index.asp" target="service"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_04.gif" border=0></a><A tabIndex="help" href="/kns50/help/help.aspx" target="help"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_05.gif" border=0></A><A href="/kns50/logout.aspx" target="_self"><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_06.gif" border=0></A><IMG height=26 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop1_07.gif" border=0><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/zwj_10.gif' height='26'></TD>
+			<TD align="right"><script language='javascript'>function TurnPage(page){ if(page==null||page==''){ return; } var nhead = window.open(page,'singlesearch'); nhead.focus();}</script>
+<select name="drpDataBaseJump" id="drpDataBaseJump" onchange="TurnPage(this.value);">
+<option value=>请选择...</option>
+<option value=/kns50/index.aspx>CNKI数据库跨库检索系统</option>
+<option value=/kns50/Navigator.aspx?ID=1>中国期刊全文数据库</option>
+<option value=/kns50/Navigator.aspx?ID=2>中国博士学位论文全文数据库</option>
+<option value=/kns50/Navigator.aspx?ID=9>中国优秀硕士学位论文全文数据库</option>
+<option value=http://acad.cnki.net/Kns55/Navigator.aspx?ID=CJFQ?uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzZPK2ZuemVZQT0=>中国学术期刊网络出版总库</option>
+<option value=http://acad.cnki.net/Kns55/Navigator.aspx?ID=CDFD?uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzZPK2ZuemVZQT0=>中国博士学位论文全文数据库 新版</option>
+<option value=http://acad.cnki.net/Kns55/Navigator.aspx?ID=CMFD?uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzZPK2ZuemVZQT0=>中国优秀硕士学位论文全文数据库 新版</option>
+</select>
+<!--繁体<A class="text" href=""></A> | English<A class="text" href="" target="_top"></A>--><IMG src="/kns50/images/whilte_bg.gif" width="2"></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+
+		<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+  <TR>
+    <TD width="6%" valign="bottom"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_09.gif" width="99"></TD>    <TD id='dbname' nowrap background="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dktop_10.gif">&nbsp; <SPAN class="datatitle" id="nowdbname">中国期刊全文数据库</SPAN></TD>
+    <TD valign="bottom">
+        <table border="0" align="right" cellpadding="0" cellspacing="0">
+          <TR> 
+            <td>&nbsp;</td>            <td><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_l.gif" width="9"></td>
+            <TD nowrap background="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_bg.gif"><A target='History' href="/kns50/History.aspx" class="text">查看检索历史</A></TD>
+            <TD width="15"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_r.gif" width="15"></TD>
+            <TD width="9"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_l.gif"></TD>
+            <TD nowrap background="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_bg.gif"><A target=_self href="Navi/index.aspx?DBCode=CJFD" class="text">期刊导航</A></TD>
+            <TD width="15"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_r.gif" width="15"></TD>
+            <TD width="9"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_l.gif"></TD>
+            <TD nowrap width="28" align="center" background="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_bg.gif"><A href="javascript:window.close();" class="text">关闭</A></TD>
+            <TD width="15"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dk/dkdh_r.gif" width="15"></TD>
+          </TR>
+        </TABLE>
+      </TD>
+  </TR>
+</TABLE>
+<TABLE width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#c8c8c8">
+  <TR>
+    <TD height="1"></TD>
+  </TR>
+</TABLE>
+
+		<!-- 项部banner end -->
+		<!-- kbsbutt -->
+		
+		<div id="NewButt"><div><img src='images/new.gif' border=0 width=29 height=10> <a style='CURSOR: hand;COLOR: blue' onclick='document.kbsform.submit();'>评论该文章</a></div>
+		</div>
+		
+		<!-- kbsbutt -->
+		<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td width="5"><IMG height=10 
+      src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width=5 
+      ></td>
+				<td class="h160">
+					<table cellSpacing="1" cellPadding="1" width="100%" border="0">
+						<tr>
+							<td vAlign=top 
+          background="http://piccache.cnki.net/kns50/images/navid_bg.gif" 
+          ><!-- start-->
+								<!-- end --></td>
+							<td vAlign="top"><!--细览 start-->
+								<img id="knetimg" src="images/dk/zwj_10.gif" alt="" border="0" height="30" />
+								<script language="JavaScript" type="text/JavaScript">
+<!--
+function TPI_openwindow(theURL,winName,facture) { //v2.0
+var my=event.y + 98;
+var mx=event.x;
+var imax = screen.width;
+var imay = screen.height;
+var ilimitx	= imax - 400;
+var ilimity	= imay - 300;
+if ( mx >= ilimitx) { mx = ilimitx; }
+if ( my >= ilimity) { my = ilimity; }
+var exampleWin = window.open(theURL,winName,facture);
+exampleWin.focus();
+try{
+exampleWin.moveTo(mx,my);
+}
+catch(e){}
+}
+//-->
+</script>
+<table width="100%" cellpadding="0" cellspacing="0" align="center">
+<tr bgcolor="#ffffff" height="26">
+<td width="" style='word-break:break-all'>
+<table width='100%' border='0' cellpadding='1' cellspacing='1' bgcolor='CCCCCC' ID="Table1"><tr><td bgcolor='f9f9f9'><table width='100%%' border='0' cellspacing='0' cellpadding='2' ID="Table2"><tr><td><table width='100%' ID="Table3"><tr><td valign='top' width='82'><IMG SRC='/KNS50/images/detail_title.gif' align='absmiddle'></td><td><span class='datatitle'>基于<font color='red'>PHP</font>技术的木材干燥专家知识查询系统</span><br>&nbsp;&nbsp<IMG SRC='/KNS50/images/logo/cajviewer16.gif' WIDTH='16' HEIGHT='16' BORDER=0> 推荐 <a href='/KNS50/download.aspx?filename=Q50VNF2Q6pmUXVlbxFjT412K3pnWXNkSxRTNSZFSXRUb3h2N38kTPR0axsGV6VzYMh3UlV2TDBXRZdEZx02ZjBHMPZFSVFEeRFWZywkd0IUT6dlMn1GWWlUSMJEdwx0TvMDThZ0TXRzRaBXNPFlTRpGSYRnSCNla&tablename=CJFD2010&dflag=cajdown' target='_blank'><b>下载阅读CAJ格式全文</b></a> <IMG SRC='/KNS50/images/logo/caj.gif' BORDER=0> <IMG SRC='/KNS50/images/logo/PDFReader16.gif' WIDTH='16' HEIGHT='16' BORDER=0> <a href='/KNS50/download.aspx?filename=Q50VNF2Q6pmUXVlbxFjT412K3pnWXNkSxRTNSZFSXRUb3h2N38kTPR0axsGV6VzYMh3UlV2TDBXRZdEZx02ZjBHMPZFSVFEeRFWZywkd0IUT6dlMn1GWWlUSMJEdwx0TvMDThZ0TXRzRaBXNPFlTRpGSYRnSCNla&tablename=CJFD2010&dflag=pdfdown' target='_blank'><b>下载阅读PDF格式全文</b></a> <IMG SRC='/KNS50/images/logo/pdf.gif' BORDER=0></td></tr></table></td></tr></table></td></tr></table></td>
+</tr>
+</table>
+<table width="100%" cellpadding="2" cellspacing="1" class="tableborder" align="center" bgcolor="#ffffff">
+<tr bgcolor="#f5f5f5" height="26">
+<td width="132" style='word-break:break-all'>
+【英文篇名】</td>
+<td width="" style='word-break:break-all'>
+<span class='datatitle'>Expert Knowledge System of Wood Drying Based on <font color='red'>PHP</font></span></td>
+</tr>
+<tr bgcolor="#ffffff" height="26">
+<td width="132" style='word-break:break-all'>
+【作者中文名】</td>
+<td width="" style='word-break:break-all'>
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%bd%9c%e8%80%85&skey=%e6%9b%b9%e6%96%87%e5%8d%8e', 'knet','status=yes,scrollbars=yes,width=375,height=250')">曹文华</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%bd%9c%e8%80%85&skey=%e5%ad%99%e4%b8%bd%e8%90%8d', 'knet','status=yes,scrollbars=yes,width=375,height=250')">孙丽萍</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%bd%9c%e8%80%85&skey=%e6%9d%8e%e5%bf%97%e8%be%89', 'knet','status=yes,scrollbars=yes,width=375,height=250')">李志辉</a>;</td>
+</tr>
+<tr bgcolor="#f5f5f5" height="26">
+<td width="132" style='word-break:break-all'>
+【作者英文名】</td>
+<td width="" style='word-break:break-all'>
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=CAO+Wen-Hua','knet','status=yes,scrollbars=yes,width=375,height=250')">CAO Wen-Hua</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=SUN+Li-Ping','knet','status=yes,scrollbars=yes,width=375,height=250')">SUN Li-Ping</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=LI+Zhi-Hui%ef%bc%88Colloge+of+Mechanical+and+Electrical+Engineering','knet','status=yes,scrollbars=yes,width=375,height=250')">LI Zhi-Hui（Colloge of Mechanical and Electrical Engineering</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=Northeast+Forestry+University','knet','status=yes,scrollbars=yes,width=375,height=250')">Northeast Forestry University</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=Haerbin+Heilongjiang+150040','knet','status=yes,scrollbars=yes,width=375,height=250')">Haerbin Heilongjiang 150040</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e4%bd%9c%e8%80%85&skey=China%ef%bc%89','knet','status=yes,scrollbars=yes,width=375,height=250')">China）</a>;</td>
+</tr>
+<tr bgcolor="#ffffff" height="26">
+<td width="132" style='word-break:break-all'>
+【作者单位】</td>
+<td width="" style='word-break:break-all'>
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e6%9c%ba%e6%9e%84&skey=%e4%b8%9c%e5%8c%97%e6%9e%97%e4%b8%9a%e5%a4%a7%e5%ad%a6%e6%9c%ba%e7%94%b5%e5%b7%a5%e7%a8%8b%e5%ad%a6%e9%99%a2', 'knet','status=yes,scrollbars=yes,width=375,height=250')">东北林业大学机电工程学院</a>;</td>
+</tr>
+<tr bgcolor="#f5f5f5" height="26">
+<td width="132" style='word-break:break-all'>
+【文献出处】</td>
+<td width="" style='word-break:break-all'>
+<a target=_blank href='/KNS50/Navi/Bridge.aspx?LinkType=BaseLink&DBCode=cjfd&TableName=cjfdbaseinfo&Field=BaseID&Value=JDCP&NaviLink=%e6%9c%ba%e7%94%b5%e4%ba%a7%e5%93%81%e5%bc%80%e5%8f%91%e4%b8%8e%e5%88%9b%e6%96%b0'>机电产品开发与创新</a>, <a target=_blank href='/KNS50/Navi/Bridge.aspx?LinkType=BaseLink&DBCode=cjfd&TableName=cjfdbaseinfo&Field=BaseID&Value=JDCP&NaviLink=%e6%9c%ba%e7%94%b5%e4%ba%a7%e5%93%81%e5%bc%80%e5%8f%91%e4%b8%8e%e5%88%9b%e6%96%b0'>Development & Innovation of Machinery & Electrical Products</a>, <a href='mailto:JDCP@chinajournal.net.cn'>编辑部邮箱</a> <a target=_blank href='/KNS50/Navi/Bridge.aspx?LinkType=IssueLink&DBCode=cjfd&TableName=cjfdyearinfo&Field=BaseID*year*issue&Value=JDCP*2010*01&NaviLink=%e6%9c%ba%e7%94%b5%e4%ba%a7%e5%93%81%e5%bc%80%e5%8f%91%e4%b8%8e%e5%88%9b%e6%96%b0'>2010年 01期</a>&nbsp;&nbsp;<br>期刊荣誉：ASPT来源刊&nbsp;&nbsp;CJFD收录刊</td>
+</tr>
+<tr bgcolor="#ffffff" height="26">
+<td width="132" style='word-break:break-all'>
+【关键词】</td>
+<td width="" style='word-break:break-all'>
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%b8%ad%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=%e6%9c%a8%e6%9d%90%e5%b9%b2%e7%87%a5','knet','status=yes,scrollbars=yes,width=375,height=250')">木材干燥</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%b8%ad%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=%e4%b8%93%e5%ae%b6%e7%9f%a5%e8%af%86','knet','status=yes,scrollbars=yes,width=375,height=250')">专家知识</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%b8%ad%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=PHP','knet','status=yes,scrollbars=yes,width=375,height=250')">PHP</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%b8%ad%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=RMM','knet','status=yes,scrollbars=yes,width=375,height=250')">RMM</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e4%b8%ad%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=B%2fS%e7%bb%93%e6%9e%84','knet','status=yes,scrollbars=yes,width=375,height=250')">B/S结构</a>;</td>
+</tr>
+<tr bgcolor="#f5f5f5" height="26">
+<td width="132" style='word-break:break-all'>
+【英文关键词】</td>
+<td width="" style='word-break:break-all'>
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=wood+drying','knet','status=yes,scrollbars=yes,width=375,height=250')">wood drying</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=expert+system','knet','status=yes,scrollbars=yes,width=375,height=250')">expert system</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=PHP','knet','status=yes,scrollbars=yes,width=375,height=250')"><font color='red'>PHP</font></a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=RMM','knet','status=yes,scrollbars=yes,width=375,height=250')">RMM</a>;
+<a style='cursor:hand;color:blue;' onClick="TPI_openwindow('/KNS50/knowledgenet.aspx?sdb=CJFD&sfield=%e8%8b%b1%e6%96%87%e5%85%b3%e9%94%ae%e8%af%8d&skey=B%2fS','knet','status=yes,scrollbars=yes,width=375,height=250')">B/S</a>;</td>
+</tr>
+<tr bgcolor="#ffffff" height="26">
+<td width="132" style='word-break:break-all'>
+【摘要】</td>
+<td width="" style='word-break:break-all'>
+<FONT style='TEXT-INDENT: 0.75cm'>随着Internet的飞速发展,在Web技术的基础上构建一套木材干燥在线专家知识查询系统,对于提高我国木材干燥行业操作人员的知识技能水平具有重要意义。本文结合当前最流行的<font color='red'>PHP</font>程序语言、MySQL数据库及RMM智能分词技术设计完成了木材干燥在线专家知识查询系统,该系统具有运行速度快、可移植性好、易于使用等优点。</FONT></td>
+</tr>
+<tr bgcolor="#f5f5f5" height="26">
+<td width="132" style='word-break:break-all'>
+【英文摘要】</td>
+<td width="" style='word-break:break-all'>
+<FONT style='TEXT-INDENT: 0.75cm'>Along with the rapid development of Internet,based on the Web technology to construct a set of wood drying online expert knowledge query system is of great significance to improving our wood drying industry operators,knowledge skill level.Through combining the most popular <font color='red'>PHP</font>,MySQL database and RMM intelligent segmentation technology.This paper design online expert knowledge query system which is of wood drying,the system has the advantages that it has operational speed,it s portability is good,it is...</FONT></td>
+</tr>
+<tr bgcolor="#ffffff" height="26">
+<td width="132" style='word-break:break-all'>
+【DOI】</td>
+<td width="" style='word-break:break-all'>
+CNKI:SUN:JDCP.0.2010-01-038</td>
+</tr>
+</table>
+
+								<table id="similarline" width="100%" align="center" border="0">
+									<tr>
+										<td class="LagTitle"><IMG height=23 
+                  src="http://piccache.cnki.net/kns50/images/detail_xgwx.gif" 
+                  width=163> 
+											<!-- LocRH.GetString("Detail_RelativeLinks") --></td>
+									</tr>
+								</table>
+								<!--同导师文-->
+								<!-- 引文-参考文献 --><a name="cankao"></a>
+								<script language="javascript">
+									//绘出进度条
+									DrawRollBox('InitCacheFrame','InitProcessBar','正在获取知网节信息，请稍等......');
+								</script>
+								
+								<IFRAME id=refareframe name=refareframe marginWidth=0 marginHeight=0 
+            src="cache/cacherefre.aspx?QueryID=0&CurRec=1&rf=" frameBorder=0 
+            noResize width="100%" scrolling=no height=1 
+            ></IFRAME>
+								<!-- 引文-引证文献 --><IFRAME 
+            id=refareframe1 name=refareframe1 marginWidth=0 marginHeight=0 
+            src="cache/cacherefre1.aspx?QueryID=0&CurRec=1&rf=" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="beiyin"></a>
+								<!-- 引文-共引文献 --><IFRAME 
+            id=refareframe2 name=refareframe2 marginWidth=0 marginHeight=0 
+            src="cache/cacherefre2.aspx?QueryID=0&CurRec=1&rf=" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="gongyin"></a>
+								<!-- 引文-同被引文献 --><IFRAME 
+            id=refareframe3 name=refareframe3 marginWidth=0 marginHeight=0 
+            src="cache/cacherefre3.aspx?QueryID=0&CurRec=1&rf=" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="yinzhengcankao"></a>
+								<!-- 引文-二级参考文献 --><IFRAME 
+            id=refareframe4 name=refareframe4 marginWidth=0 marginHeight=0 
+            src="cache/cacherefre4.aspx?QueryID=0&CurRec=1&rf=" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="cankaocankao"></a>
+								<!-- 引文-二级引证文献 --><IFRAME 
+            id=refareframe5 name=refareframe5 marginWidth=0 marginHeight=0 
+            src="cache/cacherefre5.aspx?QueryID=0&CurRec=1&rf=" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="yinzhengyinzheng"></a>
+								<!--读者推荐<IFRAME 
+            id=araframe name=araframe marginWidth=0 marginHeight=0 
+            src="cache/cachearafile.aspx?QueryID=0&CurRec=1" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="duzhe"></a>-->
+								<!--读者推荐-->
+								<a name="ara"></a>
+								
+								<!--相似文献--><script language="JavaScript">
+//调整iframe高度
+function SetFrameHight(FrameID,FrameHeight)
+{
+	var dFrame=document.getElementById(FrameID);
+	dFrame.height=FrameHeight;
+}
+</script>
+<a name='tonglei'></a><style type="text/css">
+<!--
+sim.table{
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+sim.td{
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+sim.img{
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+sim.form{
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+td,p,li,select,input,textarea {
+	font-size:12px
+}
+.b2 {
+	border:1px solid #BBBBBB;
+	background-color:#F2F2F2
+}
+.tabbold{
+	padding-top:3px;
+	font-weight:bold;
+	color:#FF6600;
+	cursor:pointer;
+}
+.tabwhite{
+	padding-top:3px;
+	font-weight:bold;
+	color:#000000;
+	cursor:pointer;
+}
+-->
+</style>
+<table width=100% cellspacing=0 class="b2" style="margin-top:7px">
+  <tr>
+    <td align='left' valign=top bgcolor=#FFFFFF> 
+      <table width="100%" cellspacing=0 bgcolor=#f9f9f9 style="margin-top:1px">
+        <tr>
+    <td height=22 style="padding-top:2px">【相似文献】</td>
+          <td align='right'> 
+<table border='0' cellpadding='1' cellspacing='1'> 
+  <tr> 
+    <td><table width='100%'  border='0' cellpadding='0' cellspacing='0'> 
+        <tr> 
+          <td width='8'><img src='images/dk/sim_left.GIF' width='8' height='24'></td> 
+	<td background='images/dk/sim_mid.GIF' id="tab0" onclick="setsimtab(0,this);MM_goToURL('similarfileframe','/kns50/simfiles.aspx?QueryID=0&CurRec=1&mCode=CJFD&DbCode=CJFD');return document.MM_returnValue" align='center' class='tabbold'>期刊全文</td>
+          <td width='8'><img src='images/dk/sim_right.GIF' width='8' height='24'></td> 
+        </tr> 
+      </table></td> 
+    <td><table width='100%'  border='0' cellpadding='0' cellspacing='0'> 
+        <tr> 
+          <td width='8'><img src='images/dk/sim_left.GIF' width='8' height='24'></td> 
+	<td background='images/dk/sim_mid.GIF' id="tab1" onclick="setsimtab(1,this);MM_goToURL('similarfileframe','/kns50/simfiles.aspx?QueryID=0&CurRec=1&mCode=CJFD&DbCode=CMFD');return document.MM_returnValue" align='center' class='tabwhite'>优秀硕士学位论文</td>
+          <td width='8'><img src='images/dk/sim_right.GIF' width='8' height='24'></td> 
+        </tr> 
+      </table></td> 
+    <td><table width='100%'  border='0' cellpadding='0' cellspacing='0'> 
+        <tr> 
+          <td width='8'><img src='images/dk/sim_left.GIF' width='8' height='24'></td> 
+	<td background='images/dk/sim_mid.GIF' id="tab2" onclick="setsimtab(2,this);MM_goToURL('similarfileframe','/kns50/simfiles.aspx?QueryID=0&CurRec=1&mCode=CJFD&DbCode=CDFD');return document.MM_returnValue" align='center' class='tabwhite'>博士学位论文</td>
+          <td width='8'><img src='images/dk/sim_right.GIF' width='8' height='24'></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table> 
+          </td>
+        </tr>
+      </table>
+      <iframe id="similarfileframe" marginheight=0 marginwidth=0 frameborder=0 width=100% height=1 scrolling=no src='/kns50/simfiles.aspx?QueryID=0&CurRec=1&mCode=CJFD&DbCode=CJFD'></iframe> 
+    </td>
+  </tr>
+</table>
+
+<script language="JavaScript">
+	<!--	
+	function setsimtab(id,tabobj){
+		for(i=0;i<3;i++){
+			try{
+				var obj = document.getElementById("tab"+i);
+				obj.className = "tabwhite";
+			}
+			catch(e){}
+		}
+		tabobj.className = "tabbold";
+	}
+	function MM_goToURL() { //v3.0
+	  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+	  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+	}
+	//-->
+</script>
+<a name="tonglei"></a>
+								<TABLE class="text" cellSpacing="1" cellPadding="3" width="100%" align="center" bgColor="#aae3ff">
+									<TBODY>
+										<TR bgColor="#ffffff" height="22">
+											<TD style="WORD-BREAK: break-all" width="100%" height="32"><IMG height=15 
+                  src="http://piccache.cnki.net/kns50/images/dk/zwj_54.gif" 
+                  width=15 align=absMiddle>
+												点击下列相关研究机构和相关文献作者，可以直接查到这些机构和作者被《中国知识资源总库》收录的其它文献，使您全面了解该机构和该作者的研究动态和历史。
+											</TD>
+										</TR>
+									</TBODY>
+								</TABLE>
+								<!--相关机构,相关作者--><IFRAME 
+            id=similarfieldframe name=similarfieldframe marginWidth=0 
+            marginHeight=0 
+            src="cache/cachesimilarfield.aspx?QueryID=0&CurRec=1" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="jigou"></a><a name="zuozhe"></a>
+								<!--中图法--><a name='zhongtu'></a><table width="100%" cellpadding="0" cellspacing="0" align="center" class='tableborder'class='tableborder'>
+<tr bgcolor="#f0f8ff" height="22">
+<td>
+【文献分类导航】<span class='note'>从导航的最底层可以看到与本文研究领域相同的文献，从上层导航可以浏览更多相关领域的文献。</span>
+</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" align="center" class='tableborder'class='tableborder'>
+<tr bgcolor="#f0f8ff" height="22">
+<td width="135" valign='top'>
+</td>
+<td>
+<br>
+<b>工业技术</b><br>
+　<img align='absmiddle' src='images/tree.gif' width=20 height=20>
+<a target='classify' href='classify.aspx?ClassCode=TP&ClassName=%e8%87%aa%e5%8a%a8%e5%8c%96%e6%8a%80%e6%9c%af%e3%80%81%e8%ae%a1%e7%ae%97%e6%9c%ba%e6%8a%80%e6%9c%af&ClassDB=ZTFLFCLS&LastCode=TP319&dbCode=CJFD&SQL=SELECT+*+FROM+%e4%b8%ad%e5%9b%bd%e6%9c%9f%e5%88%8a%e5%85%a8%e6%96%87%e6%95%b0%e6%8d%ae%e5%ba%93+WHERE+%e5%88%86%e7%b1%bb%e5%8f%b7%3d%22TP%3f%22&filetitle=%e5%9f%ba%e4%ba%8ePHP%e6%8a%80%e6%9c%af%e7%9a%84%e6%9c%a8%e6%9d%90%e5%b9%b2%e7%87%a5%e4%b8%93%e5%ae%b6%e7%9f%a5%e8%af%86%e6%9f%a5%e8%af%a2%e7%b3%bb%e7%bb%9f'>自动化技术、计算机技术</a><br>
+　　<img align='absmiddle' src='images/tree.gif' width=20 height=20>
+<a target='classify' href='classify.aspx?ClassCode=TP3&ClassName=%e8%ae%a1%e7%ae%97%e6%8a%80%e6%9c%af%e3%80%81%e8%ae%a1%e7%ae%97%e6%9c%ba%e6%8a%80%e6%9c%af&ClassDB=ZTFLFCLS&LastCode=TP319&dbCode=CJFD&SQL=SELECT+*+FROM+%e4%b8%ad%e5%9b%bd%e6%9c%9f%e5%88%8a%e5%85%a8%e6%96%87%e6%95%b0%e6%8d%ae%e5%ba%93+WHERE+%e5%88%86%e7%b1%bb%e5%8f%b7%3d%22TP3%3f%22&filetitle=%e5%9f%ba%e4%ba%8ePHP%e6%8a%80%e6%9c%af%e7%9a%84%e6%9c%a8%e6%9d%90%e5%b9%b2%e7%87%a5%e4%b8%93%e5%ae%b6%e7%9f%a5%e8%af%86%e6%9f%a5%e8%af%a2%e7%b3%bb%e7%bb%9f'>计算技术、计算机技术</a><br>
+　　　<img align='absmiddle' src='images/tree.gif' width=20 height=20>
+<a target='classify' href='classify.aspx?ClassCode=TP31&ClassName=%e8%ae%a1%e7%ae%97%e6%9c%ba%e8%bd%af%e4%bb%b6&ClassDB=ZTFLFCLS&LastCode=TP319&dbCode=CJFD&SQL=SELECT+*+FROM+%e4%b8%ad%e5%9b%bd%e6%9c%9f%e5%88%8a%e5%85%a8%e6%96%87%e6%95%b0%e6%8d%ae%e5%ba%93+WHERE+%e5%88%86%e7%b1%bb%e5%8f%b7%3d%22TP31%3f%22&filetitle=%e5%9f%ba%e4%ba%8ePHP%e6%8a%80%e6%9c%af%e7%9a%84%e6%9c%a8%e6%9d%90%e5%b9%b2%e7%87%a5%e4%b8%93%e5%ae%b6%e7%9f%a5%e8%af%86%e6%9f%a5%e8%af%a2%e7%b3%bb%e7%bb%9f'>计算机软件</a><br>
+　　　　<img align='absmiddle' src='images/tree.gif' width=20 height=20>
+<a target='classify' href='classify.aspx?ClassCode=TP319&ClassName=%e4%b8%93%e7%94%a8%e5%ba%94%e7%94%a8%e8%bd%af%e4%bb%b6&ClassDB=ZTFLFCLS&LastCode=TP319&dbCode=CJFD&SQL=SELECT+*+FROM+%e4%b8%ad%e5%9b%bd%e6%9c%9f%e5%88%8a%e5%85%a8%e6%96%87%e6%95%b0%e6%8d%ae%e5%ba%93+WHERE+%e5%88%86%e7%b1%bb%e5%8f%b7%3d%22TP319%22&filetitle=%e5%9f%ba%e4%ba%8ePHP%e6%8a%80%e6%9c%af%e7%9a%84%e6%9c%a8%e6%9d%90%e5%b9%b2%e7%87%a5%e4%b8%93%e5%ae%b6%e7%9f%a5%e8%af%86%e6%9f%a5%e8%af%a2%e7%b3%bb%e7%bb%9f'>专用应用软件</a><br>
+</td>
+</tr>
+</table>
+<a name="zhongtu"></a>
+								<!--同类期刊--><IFRAME 
+            id=similarjourframe name=similarjourframe marginWidth=0 
+            marginHeight=0 
+            src="cache/cachesimilarjour.aspx?QueryID=0&CurRec=1" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            ></IFRAME><a name="similarjour"></a>
+								<!--相关年鉴--><IFRAME 
+            id=cyfdframe name=cyfdframe marginWidth=0 marginHeight=0 
+            src="cache/cachecyfdlist.aspx?QueryID=0&CurRec=1" 
+            frameBorder=0 noResize width="100%" scrolling=no height=1 
+            > </IFRAME><a name="simcyfd"></a>
+								<!--细览 end --></td>
+						</tr>
+					</table>
+				</td>
+				<td width="5"><IMG height=10 
+      src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width=5 
+      ></td>
+			</tr>
+		</table>
+		<!--[机构名录库] 本机构最新文章 by lfb. 2006.8.31<=m_strInstArticleLis>-->
+		<!--[机构名录库] 本机构学者 by lfb. 2006.8.31 <=m_strInstScholarList>-->
+		<!-- 软件下载 start-->
+		<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td width="5"><IMG height=10 
+      src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width=5 
+      ></td>
+				<td class="h160">
+					<table cellSpacing="1" cellPadding="1" width="100%" bgColor="#cccccc" border="0">
+						<tr>
+							<td bgColor="#f9f9f9">
+								<table cellSpacing="0" cellPadding="2" width="100%" border="0">
+									<tr>
+										<td>&nbsp;&nbsp;<A href="http://www.cnki.net/software/xzydq.htm"><IMG 
+                  src="http://piccache.cnki.net/kns50/images/caj70.gif" 
+                  align=absMiddle border=0></A>
+											阅读器
+											<IMG height=10 
+                  src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" 
+                  width=10><a class="LgBlueTableText" href="http://www.cnki.net/cajview_page/cajviewer.htm" target="_blank">中心网站下载</a></td>
+										<td>
+											<!-- kbs form start -->
+											<table border="0" width="100%" cellpadding="1" cellspacing="1">
+												<form id='kbsform' name='kbsform' action='http://kbs.cnki.net/Forums/Remark.aspx' method='post'>
+													<TBODY>
+														<tr>
+															<td>
+																<input type='hidden' name='author' value='曹文华;孙丽萍;李志辉;'>
+<input type='hidden' name='catalog' value='I138;'>
+<input type='hidden' name='description' value='0引言目前在我国从事木材干燥作业的很多操作人员都缺乏基础培训,甚至不具备应有的操作技能,干燥技术知识普及率低与木材干燥行业的专业要求之间存在着十分突出的矛盾[1]。近年来由于生产设备的更新换代,自动化程度的进一步提高,由于操作不熟练而导致的操作失误、产能不高和生产效率降低等问题日益严重。如果将Web技术与干燥专家的经验知识结合在一起,开发出能够让操作人员方便查询最新专家知识经验的系统,将有利于提高工人的技能水平和工作效率。###PHP$$$(超级文本预处理语言)是近几年才发展起来的服务器端、跨平台、HTML...'>
+<input type='hidden' name='keyword' value='木材干燥;;专家知识;;PHP;;RMM;;B/S结构'>
+<input type='hidden' name='link' value='http://ckrd.cnki.net/grid20/detail.aspx?filename=JDCP201001038&dbname=CJFD2010'>
+<input type='hidden' name='pubDate' value='2010.01'>
+<input type='hidden' name='source' value='机电产品开发与创新'>
+<input type='hidden' name='title' value='Expert Knowledge System of Wood Drying Based on ###PHP$$$'>
+
+															</td>
+															<td align="right">
+																<img src='images/new.gif' border=0 width=29 height=10> <a style='CURSOR: hand;COLOR: blue' onclick='document.kbsform.submit();'>【评论该文章】</a>
+																<A style='CURSOR: hand;COLOR: blue' href="javascript:window.print()">
+																	【打印】
+																</A><A style='CURSOR: hand;COLOR: blue' href="javascript:window.close()">
+																	【关闭】
+																</A>
+															</td>
+														</tr>
+												</form>
+											</table>
+											<!-- end -->
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="5"><IMG height=10 
+      src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width=5 
+      ></td>
+			</tr>
+			</TBODY></table>
+		<!-- 软件下载 end-->
+		<!-- 版权信息 开始 -->
+<TABLE width="100%" height="84" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="1" height="83" bgcolor="#cccccc"></TD>
+		<TD valign="top" align="left">
+			<TABLE border="0" cellspacing="0" cellpadding="0" width="100%">
+				<TR>
+					<TD valign="top" bgcolor="#cacdd0" align="right"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_91.gif' height="5"></TD>
+				</TR>
+				<TR>
+					<TD height="70" align="left">
+						<TABLE width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+							<TR>
+								<TD width="16" height="20">&nbsp;</TD>
+								<TD height="20" class="light" nowrap>
+									<img id="FooterSiteHeader_whilte_bg" src="images/whilte_bg.gif" alt="" border="0" height="20" width="40" />主管部门：国家教育部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主办单位：清华大学</TD>
+							</TR>
+							<TR>
+								<TD width="16" height="38">&nbsp;</TD>
+								<TD class="light" nowrap>CNKI系列数据库编辑出版及版权所有：中国学术期刊(光盘版)电子杂志社<BR>中国知网技术服务及网站系统软件版权所有：清华同方知网(北京)技术有限公司<BR>其它数据库版权所有：各数据库编辑出版单位（见各库版权信息）<BR><A 
+                  class=light href="http://www.cnki.net/images/zhengshu02.jpg" 
+                  target=_blank>京ICP证040431号</A>&nbsp;&nbsp;&nbsp;&nbsp;<A 
+                  class=light href="http://www.cnki.net/images/006.jpg" 
+                  target=_blank>互联网出版许可证 
+          新出网证（京）字008号</A><BR>北京市公安局海淀分局 备案号：110 1081725
+									<A href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target=_blank><IMG class=footpic alt="" src="images/gongshangbiaoshi.gif" style="height:24px; border:0px;vertical-align:middle;"></A>
+									</TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+		<TD width="302" valign="top">
+			<TABLE border="0" cellpadding="0" cellspacing="0" align="right">
+				<TR>
+					<TD height="7"></TD>
+					<TD align="right"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_rightbg.gif"></TD>
+				</TR>
+				<TR>
+					<TD colspan="2" valign="bottom"><A href="http://help.cnki.net" target="_blank"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_92.gif' width="38" height="83" border="0"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_93.gif' width="185" height="83" border="0"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_941.gif' width="78" height="83" border="0"></A></TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR bgcolor="#cccccc">
+		<TD height="1" colspan="3"><iframe style="DISPLAY:none" width="0" height="0" src="/kns50/keepsession.aspx"></IFRAME>
+		</TD>
+	</TR>
+</TABLE>
+<SCRIPT language="javascript">
+function SetDataBaseJump(obj)
+{
+	if ( obj == null )
+		return;
+	var dbname	=	document.getElementById("nowdbname").innerHTML;
+	var icount		=	obj.length;
+	for (ix = 0;ix<icount;ix++)
+	{
+		if (String(dbname).toUpperCase() == String(obj[ix].text).toUpperCase() )
+		{
+			obj[ix].selected = true;
+			break;
+		}
+		else
+		{
+			obj[ix].selected = false;
+		}
+	}		
+}
+try
+{
+	SetDataBaseJump(document.all.drpDataBaseJump);
+}
+catch (err)
+{}
+</SCRIPT>
+
+		<!-- 版权信息 结束 -->
+		<!-- #细览导航条 strart --><script language="javascript">
+	var	dlayerwidth	=	document.body.offsetWidth-32;
+	document.write("<div id='DetailNaviLayer' style='position:absolute; width:"+ dlayerwidth + "px; height:21px; z-index:1; left: 0; top: 54;'>");
+</script>
+
+		<table cellSpacing="1" cellPadding="1" width="100%" align="center" border="0">
+			<tr>
+				<td align="right"><style type="text/css">
+<!--
+A.denavi:link { COLOR: #003366; TEXT-DECORATION: none;font-family: Arial, "宋体"}
+A.denavi:visited { COLOR: #336699; TEXT-DECORATION: none;font-family: Arial, "宋体"}
+A.denavi:active { COLOR: #00007f; TEXT-DECORATION: none;font-family: Arial, "宋体"}
+A.denavi:hover { COLOR: #660000; TEXT-DECORATION: none;font-family: Arial, "宋体"}
+-->
+</style>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function displayline()
+{
+	var	bdisplayline	=	false;
+	if ( window.img_tonglei == null && window.img_jigou == null && window.img_zuozhe == null )
+	{
+		window.similarline.style.visibility	=	"hidden";
+		var ilen =	window.similarline.rows.length;
+		for ( ix = 0;ix < ilen;ix++)
+		{
+			window.similarline.deleteRow(0);
+		}
+	}
+}
+//-->
+</script>
+<table>
+<tr>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_cankao' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#cankao' class='denavi'><div id='navi_cankao'>参考文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_beiyin' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#beiyin' class='denavi'><div id='navi_beiyin'>引证文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_gongyin' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#gongyin' class='denavi'><div id='navi_gongyin'>共引文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_yinzhengcankao' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#yinzhengcankao' class='denavi'><div id='navi_yinzhengcankao'>同被引文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_cankaocankao' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#cankaocankao' class='denavi'><div id='navi_cankaocankao'>二级参考文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_yinzhengyinzheng' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#yinzhengyinzheng' class='denavi'><div id='navi_yinzhengyinzheng'>二级引证文献</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_duzhe' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#duzhe' class='denavi'><div id='navi_duzhe'>读者推荐文章</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_tonglei'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td nowrap background='/kns50/images/blmid.gif'><a href='#tonglei' class='denavi'><div id='navi_tonglei'>相似文献</div></a></td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_jigou' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#jigou' class='denavi'><div id='navi_jigou'>相关研究机构</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_zuozhe' style='display:none'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td background='/kns50/images/blmid.gif'>
+		<a href='#zuozhe' class='denavi'><div id='navi_zuozhe'>相关文献作者</div></a>
+	</td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+<td>
+<table border='0' cellpadding='0' cellspacing='0' id='ntb_zhongtu'>
+  <tr>
+    <td width='6'><img src='/kns50/images/blleft.gif' width='6' height='18'></td>
+    <td nowrap background='/kns50/images/blmid.gif'><a href='#zhongtu' class='denavi'><div id='navi_zhongtu'>文献分类导航</div></a></td>
+    <td width='6'><img src='/kns50/images/blright.gif' width='6' height='18'></td>
+  </tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+			</tr>
+		</table>
+		<script language="javascript">			
+			document.write("</div>");
+			displayline();
+			
+			ResizeMinSize();
+			
+			//设定导航条宽度
+			function ResizeMinSize()
+			{				
+				var	dlayerwidth	=	780;	
+
+				if ( document.body.offsetWidth < dlayerwidth )
+				{
+					DetailNaviLayer.style.width	=	String((dlayerwidth - 32)) + "px";					
+				}
+				else
+				{
+					dlayerwidth	=	document.body.offsetWidth;
+					DetailNaviLayer.style.width	=	String((dlayerwidth - 32)) + "px";
+					return;					
+				}
+				
+				ResizeDeNaviLayer(true);
+			}							
+			
+			//隐藏指定ID的图层
+			function SetRollBoxNone(divId)
+			{
+				var naviTable =	document.getElementById(divId);
+				if (naviTable != null ) {
+					naviTable.style.display = 'none';
+				}
+			}
+			//设定进度条的最大隐藏时间
+			window.setTimeout("SetRollBoxNone('InitCacheFrame')",9000);
+		</script>
+		<!-- #细览导航条 end -->
+		<SCRIPT language="javascript" src="Script/HtmlSearch.js"></SCRIPT>
+	</body>
+</HTML>

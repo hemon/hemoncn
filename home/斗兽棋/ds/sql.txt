@@ -1,0 +1,14 @@
+CREATE TABLE `room_ds` (
+  `ID` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `name` varchar(25) NOT NULL,
+  `guest` varchar(25) NOT NULL,
+  `host` varchar(25) NOT NULL,
+  `flag` enum('guest','host') NOT NULL default 'host',
+  `message_guest` varchar(150) NOT NULL,
+  `message_host` varchar(150) NOT NULL,
+  `chess` varchar(500) NOT NULL,
+  `time_guest` int(2) NOT NULL,
+  `time_host` int(2) NOT NULL,
+  `time` int(2) NOT NULL,
+  PRIMARY KEY  (`ID`)
+) TYPE=MyISAM AUTO_INCREMENT=1 ;

@@ -1,0 +1,40 @@
+<HTML><meta http-equav="content-type" content="text/html;charset=cn-gb">
+<body bgcolor="#ffffff" text="#000000" link="#003399" vlink="#9999cc">
+
+(<A HREF="/dtcgibin/cgi32.exe">返回查询起始页面</A>)
+<BR><BR>
+
+当前路径为: /图书总库/登录号, 请输入检索词, 并按检索键:
+<FORM METHOD=GET ACTION=/dtcgibin/cgi32.exe onSubmit="if(this.Key.value == '') alert('检索词不能为空，请输入');if(this.Key.value == '') return false;"><INPUT TYPE=hidden NAME="se" value="/图书总库/登录号">
+<P>检索词: <INPUT TYPE=TEXT NAME="Key">
+<INPUT TYPE=SUBMIT VALUE=" 开始检索 ">
+</FORM>
+<P><BR CLEAR>
+
+根据你在前面步骤中选定的检索途径，可以使用的检索词举例如下：
+<TABLE BORDER WIDTH=400>
+<TR><TD WIDTH=150>全部路径</TD><TD WIDTH=250>中国</TD></TR>
+<TR><TD>书名</TD><TD>中国司法制度教程</TD></TR>
+<TR><TD>作者</TD><TD>鲁迅</TD></TR>
+<TR><TD>ISBN</TD><TD>7-80569-224-0</TD></TR>
+<TR><TD>主题词</TD><TD>计算机</TD></TR>
+<TR><TD>分类号</TD><TD>I247.5</TD></TR>
+<TR><TD>登录号</TD><TD>102345</TD></TR>
+<TR><TD>册条码</TD><TD>B0000100</TD></TR>
+<TR><TD>记录索引号</TD><TD>0000010</TD></TR>
+
+</TABLE>
+
+
+<form>
+<input type="button" value="返回：重新选择检索途径" onclick="history.back()">
+</form>
+
+<Script language="JavaScript">
+document.forms[0].Key.focus();
+</Script>
+
+</P>
+
+
+</HTML>

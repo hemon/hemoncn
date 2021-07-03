@@ -1,0 +1,630 @@
+s:30478:"
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>
+			欢迎使用 中国知识资源总库
+		</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="skin/kns52/style.css" type="text/css" rel="stylesheet">
+		<SCRIPT language="javascript" src="cookie_kns.js"></SCRIPT>
+		<SCRIPT language="javascript" src="function.js"></SCRIPT>
+		<script language="javascript">
+			var msg1 = "请在检索词框中输入要检索的词。";
+			var msg2 = "对不起，帐号不能为空！";	
+			var msg3 = "对不起，密码不能为空！";
+			var msg4 = '您所输入的检索词中含有"<"或者">"符号！';	
+			var msg5 = "请选择数据库!";
+			var msg6 = "请先输入一个词!";	
+			var msg7 = "/kns50";
+			var msg8 = "计算机+软件";	
+			var msg9 = "对不起，您最多只能同时选择 8 个数据库进行检索。";	
+			var msg10 = "对不起，您至少选择一个数据库。";
+			var msg11 = "验证码不能为空，请输入验证码！";
+		</script>
+		<SCRIPT language="javascript" src="Script/single_index.js"></SCRIPT>
+		<script>
+	function GoToDB(alink,host,code)
+		{	
+			var returnurl = host;
+			var url = host;		
+			var lid = getCookie("LID");
+			if (lid)
+			{				
+				url = host + "kns50/loginid.aspx?uid=" + lid + "&return=" + escape(returnurl);
+				alink.href = url;
+			}
+		}
+		</script>
+		<script language="JavaScript">
+<!--
+function SetRecord(myId){
+ document.getElementById(myId).innerHTML=theString;
+ }
+//-->
+function hidden1()
+{
+	float.style.display='none';
+	float1.style.display='none';
+}
+
+function hidden2()
+{
+	float2.style.display='none';
+	float3.style.display='none';
+}
+</script>
+    <style type="text/css">
+		body{ font-size:12px;}
+		*{ margin:0; padding:0}
+		.clear{clear: both;font-size:1px;width:1px;height:0;visibility: hidden;line-height:0px;}
+		img{ border:0}
+		.cRed{ color:#f00}
+		.box1{ line-height:20px; BACKGROUND-COLOR: #F7F7F7; margin:5px;padding:5px; width:500px; }
+		.k1{width:550px;}
+		.k1 dl{margin-left:22px;}
+		.box1 dt{ float:left; color:#f00; font-weight:bold;}
+		.box1 dd{ float:left; text-align: left;}
+		/*20080911 add zhangzhuo*/
+	</style>
+		
+	</HEAD>
+	<BODY text="#000000" vLink="#999999" aLink="#999999" link="#000000" bgColor="#ffffff"
+		leftMargin="0" topMargin="0" onload="setDefaultDb();">
+		<!-- 页头开始 -->
+		<table border="0" width="798" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="1" bgcolor="#A5C9EF"><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="1"></td>
+		<td width="176" background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_04.gif">&nbsp;</td>
+		<td align="right" background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_04.gif"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_06.gif" width="112" height="21"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_07.gif" width="220" height="21"></td>
+		<td width="1" bgcolor="#A5C9EF"><img src="images/whilte_bg.gif" width="1"></td>
+	</tr>
+	<tr>
+		<td bgcolor="#A5C9EF"><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="1"></td>
+		<td rowspan="2" align="center" background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_09.gif">
+			<a href="http://www.cnki.net" target="_top"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/logo_knshome.gif" width="133" height="50" border="0"></a></td>
+		<td align="right" valign="bottom">
+		
+		<IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_13.gif" width="220" height="32"></td>
+		<td width="1" bgcolor="#A5C9EF"><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="1"></td>
+	</tr>
+	<tr>
+		<td bgcolor="#A5C9EF"><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="1"></td>
+		<td background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_10.gif"><table border="0" align="right" cellpadding="0" cellspacing="0" background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_10.gif">
+				<tr align="center">
+					<td><A href="/kns50/" class="dh">检索首页</A></td>
+					<td width="8">|</td>
+					<td><A href="http://my.cnki.net/elibregister/commonregister.aspx" target="_blank" class="dh">
+							会员注册
+						</A>
+					</td>
+					<td width="8">|</td>
+					
+					<td><A href="http://www.cnki.net" target="_blank" class="dh">
+							中国知网
+						</A>
+					</td>
+					<td width="8">|</td>
+					<td><!-- <A href="http://bbs.cnki.net" target="service" class="dh">在线咨询</A> -->
+						<A href="http://kbs.cnki.net" target="_blank" class="RedCaption">
+							学术论坛
+						</A>
+					</td>					
+					<td width="8">|</td>
+					
+					<td><A href="http://my.cnki.net/cnkirecharging/pay.aspx" target="_blank" class="dh">
+							充值中心
+						</A>
+					</td>
+					<td width="8">|</td>
+					<td>
+						<A href="http://dir.cnki.net" target="_blank" class="RedCaption">
+							学术导航
+						</A>
+					</td>
+					<td width="8">|</td>
+					<td><A href="http://www.cnki.net/software/xzydq.htm" target="soft" class="dh">
+							下载阅读器
+						</A>
+					</td>
+					<td width="8">|</td>
+					
+						<!-- <A href="http://epub.cnki.net/grid2008/gerenguan.aspx" target="_blank" class="dh">
+							机构卡注册
+						</A>-->						
+					
+					<td><A href="http://service.cnki.net/" target="service" class="dh">客服中心</A></td>
+					<td width="8">|</td>
+					<td><A href="/kns50/help/help.aspx" class="dh" target="_top">操作指南</A></td>
+					<td width="33"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_17.gif" width="33" height="33" align="absbottom"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="1" bgcolor="#A5C9EF"><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="1"></td>
+	</tr>
+</table>
+
+				</td>
+			</tr>
+		</table>
+		<!-- 页头结束 -->
+		<!-- 表单区域开始 -->
+		<TABLE cellSpacing="0" cellPadding="0" width="798" align="center" border="0">
+			<TR>
+				<TD vAlign=top width=176 background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_25.gif" 
+    >
+					<!-- 处理登录表单 开始 -->
+					<TABLE cellSpacing="0" cellPadding="1" width="170" align="center" border="0">
+						<form name="LogForm" method="post" action="single_index.aspx" id="LogForm">
+<input type="hidden" name="__VIEWSTATE" value="dDwzNDQzNzM3NjA7Oz47m2F6+O5NiX4YpdzVpK6jgsuBFw==" />
+
+							<TBODY>
+								<TR>
+									<TD colSpan="2" height="6"></TD>
+								</TR>
+								<TR>
+									<TD colSpan="2">
+										<DIV class="title14" align="center">
+											</DIV>
+									</TD>
+								</TR>
+								<TR>
+									<TD width="50">&nbsp;</TD>
+									<TD width="116">
+										</TD>
+								</TR>
+								<TR>
+									<TD>&nbsp;</TD>
+									<TD>
+										</TD>
+								</TR>
+								<tr>
+									<td colspan=2>
+									
+									</td>
+								</tr>
+								<TR>
+									<TD align="center" colSpan="2">
+										<A onclick="return CliectCheck('LogForm')" href="#">
+											</A><img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="10"><A OnClick="IPLoginCheck('LogForm');" href="#"></A>
+									</TD>
+								</TR>
+								<tr>
+									<td align="center" colSpan="2"><span id="welcome">欢迎NJ0121访问！</span></td>
+								</tr>
+								<tr>
+									<td align="center" colSpan="2"><div class="namelink">
+											<a id="logoutlab" class="link1" href="logout.aspx?q=1" target="_self"><span id="logoutLable">退出登录</span>&nbsp;<img src="http://piccache.cnki.net/kns50/images/out.gif" id="logoutPic" width="18" height="20" align="absmiddle" border="0" /></a></div>
+									</td>
+								</tr>
+								<TR>
+									<TD colSpan="2" height="18">&nbsp;</TD>
+								</TR>
+						
+
+</form>
+					</TABLE>
+					<!-- 处理登录表单 结束 -->
+					<TABLE cellSpacing="0" cellPadding="0" width="176" bgColor="#98c1eb" border="0">
+						<TR>
+							<TD height="1"></TD>
+						</TR>
+					</TABLE>
+					<TABLE width="160" border="0" align="center" cellpadding="1" cellspacing="0">
+						<TR>
+							<TD colspan="3"></TD>
+						</TR>
+						<TR>
+							<TD height="24" colspan="3"><SPAN class="titlelittle">数据库导航</SPAN><SPAN class="text">
+									&gt;&gt;</SPAN></TD>
+						</TR>
+						<TR>
+							<TD width="6" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CJFD" class="textlink" target="_blank">期刊导航</A></TD>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="6" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/Navi.aspx?NaviID=1000" class="textlink" target="_blank">基金导航</A></TD>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="6" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/Navi.aspx?NaviID=1001" class="textlink" target="_blank">作者单位导航</A></TD>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="6" height="24"><IMG src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width="4"></TD>
+							<TD height="24"><A href="Navi/MultiNavi.aspx?NaviID=2000" class="textlink" target="_blank">内容分类导航</A></TD>
+							<TD width="5" height="24"><IMG src='http://piccache.cnki.net/kns50/images/dot1.gif' width="4" height="7"></TD>
+						</TR>
+						<!--
+						<TR>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CDMD" class="textlink" target="_blank">博硕士学位授予单位导航</A></TD>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						-->
+						<TR>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CDFD" class="textlink" target="_blank">博士学位授予单位导航</A></TD>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CMFD" class="textlink" target="_blank">硕士学位授予单位导航</A></TD>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CPFD" class="textlink" target="_blank">会议主办单位导航</A></TD>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="5" height="24"><IMG src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width="4"></TD>
+							<TD height="24"><A href="Navi/Navi.aspx?NaviID=1003" class="textlink" target="_blank">会议论文集导航</A></TD>
+							<TD height="24"><IMG src='http://piccache.cnki.net/kns50/images/dot1.gif' width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD height="24"><A href="Navi/index.aspx?DBCode=CCND" class="textlink" target="_blank">报纸导航</A></TD>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						
+						<TR>
+							<TD width="5" height="24"><IMG 
+            src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width=4 
+            ></TD>
+							<TD height="24"><A class="textlink" href="Navi/index.aspx?DBCode=BOOK" target="_blank">出版社导航</A></TD>
+							<TD height="24"><IMG height=7 
+            src='http://piccache.cnki.net/kns50/images/dot1.gif' width=4 
+            ></TD>
+						</TR>
+						
+					</TABLE>
+					<TABLE cellSpacing="0" cellPadding="1" width="160" align="center" border="0">
+						<TR>
+							<TD colSpan="3" height="10"></TD>
+						</TR>
+						<TR>
+							<TD colSpan="3" height="24"><SPAN class="titlelittle">CAJViewer 软件下载</SPAN><SPAN class="text">
+									&gt;&gt; </SPAN>
+							</TD>
+						</TR>
+						<TR>
+							<TD width="5" height="24"><IMG src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width="4"></TD>
+							<TD height="24"><A class="textlink" title='CAJViewer 7.0全文浏览器是中国期刊网的专用全文格式阅读器，与CAJViewer 6.0相比，增加（修改）了以下功能：1.增加页面旋转功能。可以全部或单独旋转某一页面，并能将旋转结果保存。2.增加两种页面显示方式，即对开显示及连续对开显示，可以设置对开显示时的起始页，可以设置对开显示时是否显示页间空隙。3.增加了新的标注类型，并能对标注属性进行修改。4.增强了打印方法，可以实现双面打印，可以以讲义的方法打印，可以根据打印机性能进行优化。5.增加了屏幕取词软件的支持，可以使用第三方翻译软件进行即时翻译。6.增加了在多个文件夹搜索功能。7.增加了用户自定义搜索引擎功能。8.增加了图像工具，可以快速保存文件中原始图片，也可以进行打印、email、文字识别、发送到WORD等多种操作。9.增加（加强）了自动滚动方式，可以使用鼠标中键进行自动滚动及调整滚动速度。10.增加了浏览状态保存功能，保存用户的浏览信息，在下次打开文件时，可以快速定位到上次阅读状态。11.增加动态帮助，浏览器可以随机从服务器上取得最新帮助信息。12.增强了图像处理引擎，提高了图像处理速度，减少了内存占用。13.更广的缩放范围，实现从25%到6400%的缩放。希望这款产品能给你的工作带来更多方便！ '
+									onclick="MM_openBrWindow('soft/cajviewer.htm','cajviewer','width=370,height=650,scrollbars=1')" href="#">CAJViewer 
+									7.0</A></TD>
+							<TD height="24" width="5"><IMG src='http://piccache.cnki.net/kns50/images/dot1.gif' width="4" height="7"></TD>
+						</TR>
+					</TABLE>
+					<TABLE width="160" border="0" align="center" cellpadding="1" cellspacing="0">
+						<TR>
+							<TD colSpan="3" height="10"></TD>
+						</TR>
+						<!-- 英文版不显示使用手册 -->
+						
+						<TR>
+							<TD height="22" colspan="3"><SPAN class="titlelittle">KNS使用手册（下载）</SPAN><SPAN class="text">
+									&gt;&gt; </SPAN>
+							</TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width="4"></TD>
+							<TD>中心网站版
+								(<A href="/software/center_for_kdh.kdh" class="textlink">CAJ</A>) (<A href="/software/center_for_pdf.pdf" class="textlink">PDF</A>)
+							</TD>
+							<TD><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif' width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src='http://piccache.cnki.net/kns50/images/whilte_bg.gif' width="4"></TD>
+							<TD>镜像用户版
+								(<A href="/software/mirror_for_kdh.kdh" class="textlink">CAJ</A>) (<A href="/software/mirror_for_pdf.pdf" class="textlink">PDF</A>)
+							</TD>
+							<TD><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif' width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD colSpan="3" height="10"></TD>
+						</TR>
+						<!-- 英文版不使用手册 -->
+						
+						<TR>
+							<TD height="22" colspan="3"><SPAN class="titlelittle">KNS5.0功能介绍</SPAN><SPAN class="text">
+									&gt;&gt; </SPAN>
+							</TD>
+						</TR>
+						<TR>
+							<TD width="5" height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD width="143"><A href="knsinfo.aspx" class="textlink">跨库检索</A></TD>
+							<TD width="6"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD><A href="knsinfo.aspx#02info" class="textlink">库间引文链接</A></TD>
+							<TD><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD><A href="knsinfo.aspx#04info" class="textlink">概念关系词典</A></TD>
+							<TD><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD><A href="knsinfo.aspx#05info" class="textlink">知识网络系统</A></TD>
+							<TD><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD><A href="knsinfo.aspx#07info" class="textlink">知识元链接</A><BR>
+							</TD>
+							<TD><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR>
+							<TD height="24"><IMG src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="4"></TD>
+							<TD><A href="knsinfo.aspx#09info" class="textlink">相似文献链接</A></TD>
+							<TD><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/dot1.gif" width="4" height="7"></TD>
+						</TR>
+						<TR align="right">
+							<TD height="24" colspan="3">
+								<A href="knsinfo.aspx"><IMG src="http://piccache.cnki.net/kns50/images/skin/kns52/images/more_chinese.gif" width="71" height="14" border="0"></A></TD>
+						</TR>
+						<TR>
+							<TD height="24" colspan="3" heiāght="22">&nbsp;</TD>
+						</TR>
+					</TABLE>
+				</TD>
+				<TD width=1 background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_24.gif" 
+    ></TD>
+				<TD vAlign="top" width="600" align="center">
+					<!-- 检索表单 -->
+					<form name="composeform" onsubmit="return CheckKnsForm('0');" action="/kns50/scdbsearch/cdbindex.aspx"
+						method="post" target='singlesearch'>
+						<TABLE cellSpacing=0 cellPadding=0 width=600 align=center background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_19.gif" border=0>
+							<TR>
+								<TD height="10"></TD>
+							</TR>
+						</TABLE>
+						<TABLE cellSpacing="0" cellPadding="0" width="600" align="center" border="0" height="80">
+							<tr>
+								<td align="right">
+									
+									<a href="http://search.cnki.net/index.aspx"><IMG 
+				height=22 
+				src='http://piccache.cnki.net/kns50/images/button_cnkisearch.gif' 
+				border=0></a>
+									
+									<img src="http://piccache.cnki.net/kns50/images/whilte_bg.gif" width="30"><a href="index.aspx"><IMG src="http://piccache.cnki.net/kns50/images/index_kuaku.gif" width="130" height="22" border="0"></a>
+								</td>
+							</tr>
+							<TR>
+								<TD class="text" align="right">
+									
+								</TD>
+							</TR>
+							<TR>
+								<TD class="title" align="center">&nbsp;&nbsp;
+									欢迎使用 中国知识资源总库</TD>
+							</TR>
+						</TABLE>
+						<!-- 总库推广 start -->
+						<div class="box1 k1">
+						   <dl>
+							  <dt>温馨提示：</dt>
+							 <dd>
+						<a href="http://epub.cnki.net/grid2008/loginDigital.aspx?action=single&p=brief%2findex.aspx%3fdbCatalog%3d%u4E2D%u56FD%u5B66%u672F%u6587%u732E%u7F51%u7EDC%u51FA%u7248%u603B%u5E93&uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzBudkwyb1QxZz0=" target='_blank'><img src="an0087.gif" height="22" align="absmiddle"/></a>，一次检索中文期刊、学位论文、专利等16种学术资源。</dd>
+						   </dl>
+						   <div class="clear"></div>
+						</div>
+						<!-- 总库推广 end -->
+						<!-- 一个小table，显示空格 -->
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td height="6"><span id="Avert"></span></td>
+							</tr>
+						</table>
+						<!-- 小table结束 -->
+						<TABLE cellSpacing="0" cellPadding="0" width="529" align="center" border="0">
+							<TR>
+								<TD colSpan="3" heiht="49"></TD>
+							</TR>
+							<TR>
+								<TD width="22" height="24"><IMG height=18 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/warn_photo.gif" width=18 align=absMiddle ></TD>
+								<TD width="307"><SPAN class="title14">选择<FONT color="#1262a0">数据库</FONT></SPAN><FONT color="#ff6600">&nbsp;</FONT><SPAN class="text">(<FONT color="#fc8603">单库检索 请点击数据库名称</FONT>)</SPAN></TD>
+								<td width="200">
+									<marquee scrollamount="3">
+										<B>
+											当前帐号在线人数:<span id='spnCurrentUserCount'>1</span></B>
+									</marquee>
+								</td>
+							</TR>
+							<TR>
+								<TD background="http://piccache.cnki.net/kns50/images/skin/kns52/images/dian.gif" colSpan=3 
+          ></TD>
+							</TR>
+							<TR>
+								<td align="center" colspan="3">
+									
+									<span id="DBList"><table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='Navigator.aspx?ID=1' target='singlesearch' class='link1'>中国期刊全文数据库</a>
+<br>1994年至今（部分刊物回溯至创刊）， 共&nbsp;34002638&nbsp;篇，今日新增&nbsp;2018&nbsp;篇
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=1&dbcode=CJFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+<table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='http://acad.cnki.net/Kns55/Navigator.aspx?ID=CJFQ&uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzBudkwyb1QxZz0=' target='singlesearch' class='link1'>中国学术期刊网络出版总库</a>
+<br>1994年至今（部分刊物回溯至创刊）
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=242&dbcode=CJFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+<table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='Navigator.aspx?ID=2' target='singlesearch' class='link1'>中国博士学位论文全文数据库</a>
+<br>1999年至今， 共&nbsp;124419&nbsp;篇，今日新增&nbsp;7&nbsp;篇
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=2&dbcode=CDFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+<table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='http://acad.cnki.net/Kns55/Navigator.aspx?ID=CDFD&uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzBudkwyb1QxZz0=' target='singlesearch' class='link1'>中国博士学位论文全文数据库 新版</a>
+<br>1999年至今
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=243&dbcode=CDFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+<table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='Navigator.aspx?ID=9' target='singlesearch' class='link1'>中国优秀硕士学位论文全文数据库</a>
+<br>1999年至今， 共&nbsp;947703&nbsp;篇，今日新增&nbsp;62&nbsp;篇
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=9&dbcode=CMFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+<table width=100% border=0 cellpadding=1 cellspacing=1 height=60>
+  <tr> 
+    <td>
+			<a href='http://acad.cnki.net/Kns55/Navigator.aspx?ID=CMFD&uid=WEEvREdiSUtucElBVzBwcXJGeUxBQzBudkwyb1QxZz0=' target='singlesearch' class='link1'>中国优秀硕士学位论文全文数据库 新版</a>
+<br>1999年至今
+    </td>
+    <td width='48' align='right' valign='top'><a href="JavaScript:MM_openBrWindow('jianjie/introduction.aspx?id=245&dbcode=CMFD','jianjie','width=625,height=344,scrollbars=1')" class='link1'><img src='http://piccache.cnki.net/kns50/images/info.gif' border='0'></a>
+  	</td>
+  </tr>
+  <tr>
+    <td colspan='2' align='center' height='5'></td>
+  </tr>
+</table>
+</span>
+								</td>
+							</TR>
+						</TABLE>
+					</form>
+				</TD>
+				<TD vAlign=top width=21 background="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_rdd.gif" 
+    ><IMG height=402 src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_rd.gif" width=21 ></TD>
+			</TR>
+			</TBODY></TABLE>
+		<!-- 版权信息 开始 -->
+		<table border="0" width="798" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+<TABLE width="100%" height="84" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="1" height="83" bgcolor="#cccccc"></TD>
+		<TD valign="top" align="left">
+			<TABLE border="0" cellspacing="0" cellpadding="0" width="100%">
+				<TR>
+					<TD valign="top" bgcolor="#cacdd0" align="right"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_91.gif' height="5"></TD>
+				</TR>
+				<TR>
+					<TD height="70" align="left">
+						<TABLE width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+							<TR>
+								<TD width="16" height="20">&nbsp;</TD>
+								<TD height="20" class="light" nowrap>
+									<img id="FooterSiteHeader_whilte_bg" src="images/whilte_bg.gif" alt="" border="0" height="20" width="40" />主管部门：国家教育部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主办单位：清华大学</TD>
+							</TR>
+							<TR>
+								<TD width="16" height="38">&nbsp;</TD>
+								<TD class="light" nowrap>CNKI系列数据库编辑出版及版权所有：中国学术期刊(光盘版)电子杂志社<BR>中国知网技术服务及网站系统软件版权所有：清华同方知网(北京)技术有限公司<BR>其它数据库版权所有：各数据库编辑出版单位（见各库版权信息）<BR><A 
+                  class=light href="http://www.cnki.net/images/zhengshu02.jpg" 
+                  target=_blank>京ICP证040431号</A>&nbsp;&nbsp;&nbsp;&nbsp;<A 
+                  class=light href="http://www.cnki.net/images/006.jpg" 
+                  target=_blank>互联网出版许可证 
+          新出网证（京）字008号</A><BR>北京市公安局海淀分局 备案号：110 1081725
+									<A href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021" target=_blank><IMG class=footpic alt="" src="images/gongshangbiaoshi.gif" style="height:24px; border:0px;vertical-align:middle;"></A>
+									</TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+		<TD width="302" valign="top">
+			<TABLE border="0" cellpadding="0" cellspacing="0" align="right">
+				<TR>
+					<TD height="7"></TD>
+					<TD align="right"><img src="http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_rightbg.gif"></TD>
+				</TR>
+				<TR>
+					<TD colspan="2" valign="bottom"><A href="http://help.cnki.net" target="_blank"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_92.gif' width="38" height="83" border="0"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_93.gif' width="185" height="83" border="0"><IMG src='http://piccache.cnki.net/kns50/images/skin/kns52/images/kns_941.gif' width="78" height="83" border="0"></A></TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR bgcolor="#cccccc">
+		<TD height="1" colspan="3"><iframe style="DISPLAY:none" width="0" height="0" src="/kns50/keepsession.aspx"></IFRAME>
+		</TD>
+	</TR>
+</TABLE>
+<SCRIPT language="javascript">
+function SetDataBaseJump(obj)
+{
+	if ( obj == null )
+		return;
+	var dbname	=	document.getElementById("nowdbname").innerHTML;
+	var icount		=	obj.length;
+	for (ix = 0;ix<icount;ix++)
+	{
+		if (String(dbname).toUpperCase() == String(obj[ix].text).toUpperCase() )
+		{
+			obj[ix].selected = true;
+			break;
+		}
+		else
+		{
+			obj[ix].selected = false;
+		}
+	}		
+}
+try
+{
+	SetDataBaseJump(document.all.drpDataBaseJump);
+}
+catch (err)
+{}
+</SCRIPT>
+</td>
+			</tr>
+		</table>
+		<!-- 版权信息 结束 -->
+	</BODY>
+</HTML>
+";

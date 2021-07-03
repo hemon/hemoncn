@@ -1,0 +1,12 @@
+<?php
+require_once('cmd.func.php');
+require_once('curl.func.php');
+
+function cnki($key){
+    $url = 'http://dlib.cnki.net/kns50/';
+    $url = 'http://dlib.cnki.net/kns50/scdbsearch/cdbindex.aspx';
+    //$query = '?selectdatabase=中国期刊全文数据库&txtBaseSearchValue=php';
+    return curl_proxy($url.$query);
+}
+
+?>
