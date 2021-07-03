@@ -27,7 +27,7 @@ function douban(){
     if($("#intro").length == 0){
         var intro = $('div.indent', douban).eq(2).html();
         if(intro && intro.indexOf('book/tag',1) == -1 && intro.indexOf('form_email',1) == -1 ) {
-            $("#begin").html(intro).show().before('<h2>ÄÚÈÝ¼ò½é</h2>');
+            $("#begin").html(intro).show().before('<h2>å†…å®¹ç®€ä»‹</h2>');
         }
     }
     //like
@@ -36,7 +36,7 @@ function douban(){
         .attr("href", function(){ 
             var alt = $('img', this).attr('alt');
             var title = ( alt ? alt: this.title ); 
-            var key = title.replace(/[\(|£¨|£º|:|-|-|¡ª|-|-|¨D|\/|\\].*/, '');
+            var key = title.replace(/[\(|ï¼ˆ|ï¼š|:|-|-|â€”|-|-|â€•|\/|\\].*/, '');
             var utf8 = ( $.browser.msie ? '' : '&encode=UTF-8' );
             return '?key=' + key + utf8;
         });
@@ -53,7 +53,7 @@ function douban(){
         var relink = $('li.nlst a', this).attr('href');
         var review = $('div', clst).html();
         review = review.replace(/\<.*>/, '').replace(/\.\.+/, '');
-        var html = '<li><p class="title">'+ user +'<span class="'+ rate +'"></span><b class="datetime">'+ date +'</b></p><p class="content"><p class="face">'+ face +'</p>'+ review +'<a href='+ relink +' target="_blank" title="¸ü¶à¡­¡­">......</a></p></li>';
+        var html = '<li><p class="title">'+ user +'<span class="'+ rate +'"></span><b class="datetime">'+ date +'</b></p><p class="content"><p class="face">'+ face +'</p>'+ review +'<a href='+ relink +' target="_blank" title="æ›´å¤šâ€¦â€¦">......</a></p></li>';
         
         $('ul', window.frames["mypost"].document).append(html);
         $('#mypost').css("height",window.frames["mypost"].document.body.scrollHeight);
